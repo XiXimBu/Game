@@ -1,0 +1,1935 @@
+{
+  "frames": {
+    "enemy/high/air/map1_air.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 751,
+        "h": 546
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 24,
+        "y": 27,
+        "w": 751,
+        "h": 546
+      },
+      "sourceSize": {
+        "w": 800,
+        "h": 600
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_24.png": {
+      "frame": {
+        "x": 751,
+        "y": 0,
+        "w": 722,
+        "h": 717
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 9,
+        "w": 722,
+        "h": 717
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 546,
+        "w": 722,
+        "h": 714
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 13,
+        "w": 722,
+        "h": 714
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_25.png": {
+      "frame": {
+        "x": 1473,
+        "y": 0,
+        "w": 722,
+        "h": 703
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 24,
+        "w": 722,
+        "h": 703
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_02.png": {
+      "frame": {
+        "x": 2195,
+        "y": 0,
+        "w": 722,
+        "h": 693
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 33,
+        "w": 722,
+        "h": 693
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_23.png": {
+      "frame": {
+        "x": 2917,
+        "y": 0,
+        "w": 721,
+        "h": 721
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 3,
+        "w": 721,
+        "h": 721
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_22.png": {
+      "frame": {
+        "x": 2195,
+        "y": 693,
+        "w": 721,
+        "h": 674
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 118,
+        "y": 48,
+        "w": 721,
+        "h": 674
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_03.png": {
+      "frame": {
+        "x": 1473,
+        "y": 703,
+        "w": 721,
+        "h": 667
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 58,
+        "w": 721,
+        "h": 667
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_06.png": {
+      "frame": {
+        "x": 722,
+        "y": 721,
+        "w": 720,
+        "h": 654
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 118,
+        "y": 66,
+        "w": 720,
+        "h": 654
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_04.png": {
+      "frame": {
+        "x": 0,
+        "y": 1260,
+        "w": 720,
+        "h": 652
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 72,
+        "w": 720,
+        "h": 652
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_05.png": {
+      "frame": {
+        "x": 3638,
+        "y": 0,
+        "w": 720,
+        "h": 651
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 71,
+        "w": 720,
+        "h": 651
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_07.png": {
+      "frame": {
+        "x": 4358,
+        "y": 0,
+        "w": 719,
+        "h": 555
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 118,
+        "y": 163,
+        "w": 719,
+        "h": 555
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_21.png": {
+      "frame": {
+        "x": 5077,
+        "y": 0,
+        "w": 719,
+        "h": 535
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 118,
+        "y": 185,
+        "w": 719,
+        "h": 535
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_08.png": {
+      "frame": {
+        "x": 5796,
+        "y": 0,
+        "w": 719,
+        "h": 325
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 117,
+        "y": 390,
+        "w": 719,
+        "h": 325
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/ufo/map1_ufo.png": {
+      "frame": {
+        "x": 6515,
+        "y": 0,
+        "w": 719,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 20,
+        "w": 719,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 748,
+        "h": 354
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_20.png": {
+      "frame": {
+        "x": 7234,
+        "y": 0,
+        "w": 718,
+        "h": 337
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 117,
+        "y": 380,
+        "w": 718,
+        "h": 337
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_19.png": {
+      "frame": {
+        "x": 6515,
+        "y": 319,
+        "w": 718,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 116,
+        "y": 442,
+        "w": 718,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_09.png": {
+      "frame": {
+        "x": 5796,
+        "y": 337,
+        "w": 718,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 117,
+        "y": 442,
+        "w": 718,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_10.png": {
+      "frame": {
+        "x": 5077,
+        "y": 535,
+        "w": 717,
+        "h": 482
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 116,
+        "y": 443,
+        "w": 717,
+        "h": 482
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_11.png": {
+      "frame": {
+        "x": 4358,
+        "y": 608,
+        "w": 716,
+        "h": 564
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 116,
+        "y": 443,
+        "w": 716,
+        "h": 564
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_05.png": {
+      "frame": {
+        "x": 4358,
+        "y": 555,
+        "w": 52,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 28,
+        "y": 20,
+        "w": 52,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_12.png": {
+      "frame": {
+        "x": 3638,
+        "y": 651,
+        "w": 716,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 444,
+        "w": 716,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_06.png": {
+      "frame": {
+        "x": 4410,
+        "y": 555,
+        "w": 46,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 29,
+        "y": 29,
+        "w": 46,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_18.png": {
+      "frame": {
+        "x": 2916,
+        "y": 721,
+        "w": 716,
+        "h": 484
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 116,
+        "y": 443,
+        "w": 716,
+        "h": 484
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_17.png": {
+      "frame": {
+        "x": 2916,
+        "y": 1205,
+        "w": 715,
+        "h": 580
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 116,
+        "y": 444,
+        "w": 715,
+        "h": 580
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_16.png": {
+      "frame": {
+        "x": 2194,
+        "y": 1367,
+        "w": 715,
+        "h": 558
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 444,
+        "w": 715,
+        "h": 558
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_13.png": {
+      "frame": {
+        "x": 2194,
+        "y": 1925,
+        "w": 715,
+        "h": 527
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 444,
+        "w": 715,
+        "h": 527
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_07.png": {
+      "frame": {
+        "x": 4456,
+        "y": 555,
+        "w": 44,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 30,
+        "y": 32,
+        "w": 44,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_08.png": {
+      "frame": {
+        "x": 4500,
+        "y": 555,
+        "w": 36,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 36,
+        "y": 33,
+        "w": 36,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_15.png": {
+      "frame": {
+        "x": 1442,
+        "y": 1370,
+        "w": 714,
+        "h": 529
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 444,
+        "w": 714,
+        "h": 529
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bird-enemie/map1_birdenemi_14.png": {
+      "frame": {
+        "x": 720,
+        "y": 1375,
+        "w": 714,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 444,
+        "w": 714,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1024
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_00.png": {
+      "frame": {
+        "x": 7952,
+        "y": 0,
+        "w": 201,
+        "h": 181
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 201,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_01.png": {
+      "frame": {
+        "x": 7952,
+        "y": 181,
+        "w": 201,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 201,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/spike/map1_spikeA.png": {
+      "frame": {
+        "x": 7233,
+        "y": 337,
+        "w": 270,
+        "h": 257
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 270,
+        "h": 257
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 258
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_02.png": {
+      "frame": {
+        "x": 7503,
+        "y": 337,
+        "w": 201,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 2,
+        "w": 201,
+        "h": 179
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_03.png": {
+      "frame": {
+        "x": 7704,
+        "y": 337,
+        "w": 201,
+        "h": 178
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 3,
+        "w": 201,
+        "h": 178
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_04.png": {
+      "frame": {
+        "x": 7905,
+        "y": 361,
+        "w": 201,
+        "h": 177
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 4,
+        "w": 201,
+        "h": 177
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_05.png": {
+      "frame": {
+        "x": 7704,
+        "y": 515,
+        "w": 201,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 5,
+        "w": 201,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_06.png": {
+      "frame": {
+        "x": 7503,
+        "y": 538,
+        "w": 201,
+        "h": 175
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 6,
+        "w": 201,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bullet2/map1_bullet2_00.png": {
+      "frame": {
+        "x": 8106,
+        "y": 361,
+        "w": 85,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 49,
+        "y": 52,
+        "w": 85,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 192
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_00.png": {
+      "frame": {
+        "x": 8106,
+        "y": 448,
+        "w": 68,
+        "h": 67
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 8,
+        "w": 68,
+        "h": 67
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_02.png": {
+      "frame": {
+        "x": 8106,
+        "y": 515,
+        "w": 68,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 9,
+        "w": 68,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_07.png": {
+      "frame": {
+        "x": 7905,
+        "y": 538,
+        "w": 201,
+        "h": 174
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 7,
+        "w": 201,
+        "h": 174
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_08.png": {
+      "frame": {
+        "x": 7704,
+        "y": 691,
+        "w": 201,
+        "h": 173
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 8,
+        "w": 201,
+        "h": 173
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_01.png": {
+      "frame": {
+        "x": 8106,
+        "y": 581,
+        "w": 66,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 7,
+        "w": 66,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_03.png": {
+      "frame": {
+        "x": 8106,
+        "y": 650,
+        "w": 61,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 16,
+        "w": 61,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_09.png": {
+      "frame": {
+        "x": 7905,
+        "y": 712,
+        "w": 201,
+        "h": 172
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 9,
+        "w": 201,
+        "h": 172
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_04.png": {
+      "frame": {
+        "x": 8106,
+        "y": 712,
+        "w": 59,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 20,
+        "w": 59,
+        "h": 55
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 89
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_10.png": {
+      "frame": {
+        "x": 6514,
+        "y": 591,
+        "w": 201,
+        "h": 171
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 10,
+        "w": 201,
+        "h": 171
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_11.png": {
+      "frame": {
+        "x": 6715,
+        "y": 591,
+        "w": 201,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 11,
+        "w": 201,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_12.png": {
+      "frame": {
+        "x": 6916,
+        "y": 591,
+        "w": 201,
+        "h": 169
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 12,
+        "w": 201,
+        "h": 169
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_01.png": {
+      "frame": {
+        "x": 7117,
+        "y": 591,
+        "w": 116,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 3,
+        "w": 116,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_13.png": {
+      "frame": {
+        "x": 7233,
+        "y": 594,
+        "w": 201,
+        "h": 168
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 13,
+        "w": 201,
+        "h": 168
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_02.png": {
+      "frame": {
+        "x": 7117,
+        "y": 716,
+        "w": 116,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 5,
+        "w": 116,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_17.png": {
+      "frame": {
+        "x": 7117,
+        "y": 839,
+        "w": 116,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 5,
+        "w": 116,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_16.png": {
+      "frame": {
+        "x": 7117,
+        "y": 962,
+        "w": 116,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 7,
+        "w": 116,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_14.png": {
+      "frame": {
+        "x": 6916,
+        "y": 760,
+        "w": 201,
+        "h": 167
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 14,
+        "w": 201,
+        "h": 167
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/mushroom/map1_mushroom_15.png": {
+      "frame": {
+        "x": 6715,
+        "y": 761,
+        "w": 201,
+        "h": 166
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 15,
+        "w": 201,
+        "h": 166
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 181
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/spike/map1_spikeB.png": {
+      "frame": {
+        "x": 7434,
+        "y": 713,
+        "w": 184,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 184,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 184,
+        "h": 195
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bullet2/map1_bullet2_04.png": {
+      "frame": {
+        "x": 7233,
+        "y": 864,
+        "w": 176,
+        "h": 181
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 11,
+        "w": 176,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 192
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/high/bullet1/map1_bullet1_09.png": {
+      "frame": {
+        "x": 7233,
+        "y": 762,
+        "w": 119,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 47,
+        "w": 119,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 299,
+        "h": 109
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bullet2/map1_bullet2_03.png": {
+      "frame": {
+        "x": 7618,
+        "y": 864,
+        "w": 168,
+        "h": 189
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 3,
+        "w": 168,
+        "h": 189
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 192
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_00.png": {
+      "frame": {
+        "x": 7786,
+        "y": 864,
+        "w": 117,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 117,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/spike/map1_spikeD.png": {
+      "frame": {
+        "x": 7409,
+        "y": 907,
+        "w": 159,
+        "h": 326
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 159,
+        "h": 326
+      },
+      "sourceSize": {
+        "w": 159,
+        "h": 326
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bullet2/map1_bullet2_02.png": {
+      "frame": {
+        "x": 7233,
+        "y": 1045,
+        "w": 155,
+        "h": 161
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 17,
+        "w": 155,
+        "h": 161
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 192
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/spike/map1_spikeC.png": {
+      "frame": {
+        "x": 7903,
+        "y": 884,
+        "w": 149,
+        "h": 298
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 149,
+        "h": 298
+      },
+      "sourceSize": {
+        "w": 149,
+        "h": 299
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_03.png": {
+      "frame": {
+        "x": 7786,
+        "y": 991,
+        "w": 115,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 7,
+        "w": 115,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bullet2/map1_bullet2_01.png": {
+      "frame": {
+        "x": 8052,
+        "y": 1053,
+        "w": 134,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 27,
+        "w": 134,
+        "h": 136
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 192
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_15.png": {
+      "frame": {
+        "x": 8052,
+        "y": 884,
+        "w": 115,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 8,
+        "w": 115,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_04.png": {
+      "frame": {
+        "x": 7568,
+        "y": 1053,
+        "w": 115,
+        "h": 119
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 9,
+        "w": 115,
+        "h": 119
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_14.png": {
+      "frame": {
+        "x": 7568,
+        "y": 1172,
+        "w": 115,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 10,
+        "w": 115,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_05.png": {
+      "frame": {
+        "x": 7568,
+        "y": 1290,
+        "w": 115,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 11,
+        "w": 115,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_13.png": {
+      "frame": {
+        "x": 7683,
+        "y": 1112,
+        "w": 115,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 12,
+        "w": 115,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_06.png": {
+      "frame": {
+        "x": 7798,
+        "y": 1182,
+        "w": 114,
+        "h": 115
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 13,
+        "w": 114,
+        "h": 115
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_12.png": {
+      "frame": {
+        "x": 7683,
+        "y": 1228,
+        "w": 114,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 14,
+        "w": 114,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_07.png": {
+      "frame": {
+        "x": 7912,
+        "y": 1182,
+        "w": 114,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 15,
+        "w": 114,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_11.png": {
+      "frame": {
+        "x": 8026,
+        "y": 1189,
+        "w": 114,
+        "h": 112
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 16,
+        "w": 114,
+        "h": 112
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_08.png": {
+      "frame": {
+        "x": 7912,
+        "y": 1295,
+        "w": 114,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 17,
+        "w": 114,
+        "h": 111
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_09.png": {
+      "frame": {
+        "x": 7797,
+        "y": 1301,
+        "w": 113,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 18,
+        "w": 113,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "enemy/bottom/limbo/map1_limboman_10.png": {
+      "frame": {
+        "x": 7683,
+        "y": 1342,
+        "w": 113,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 18,
+        "w": 113,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "map1_enemy.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 8191,
+      "h": 2452
+    },
+    "scale": 1
+  }
+}

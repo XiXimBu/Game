@@ -1,0 +1,2103 @@
+{
+  "frames": {
+    "ninja cat/die/ninja-die_04.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1045,
+        "h": 591
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 176,
+        "w": 1045,
+        "h": 591
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_05.png": {
+      "frame": {
+        "x": 1045,
+        "y": 0,
+        "w": 1015,
+        "h": 590
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 52,
+        "y": 160,
+        "w": 1015,
+        "h": 590
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_06.png": {
+      "frame": {
+        "x": 2060,
+        "y": 0,
+        "w": 976,
+        "h": 623
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 65,
+        "y": 129,
+        "w": 976,
+        "h": 623
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_03.png": {
+      "frame": {
+        "x": 1045,
+        "y": 590,
+        "w": 921,
+        "h": 622
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 78,
+        "y": 74,
+        "w": 921,
+        "h": 622
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_05.png": {
+      "frame": {
+        "x": 0,
+        "y": 591,
+        "w": 914,
+        "h": 692
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 292,
+        "y": 134,
+        "w": 914,
+        "h": 692
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_10.png": {
+      "frame": {
+        "x": 3036,
+        "y": 0,
+        "w": 912,
+        "h": 281
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 80,
+        "y": 533,
+        "w": 912,
+        "h": 281
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_11.png": {
+      "frame": {
+        "x": 3948,
+        "y": 0,
+        "w": 906,
+        "h": 349
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 112,
+        "y": 477,
+        "w": 906,
+        "h": 349
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_07.png": {
+      "frame": {
+        "x": 3036,
+        "y": 281,
+        "w": 902,
+        "h": 687
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 106,
+        "y": 76,
+        "w": 902,
+        "h": 687
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_06.png": {
+      "frame": {
+        "x": 1966,
+        "y": 623,
+        "w": 899,
+        "h": 689
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 295,
+        "y": 170,
+        "w": 899,
+        "h": 689
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_14.png": {
+      "frame": {
+        "x": 914,
+        "y": 1212,
+        "w": 887,
+        "h": 328
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 137,
+        "y": 500,
+        "w": 887,
+        "h": 328
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_15.png": {
+      "frame": {
+        "x": 0,
+        "y": 1283,
+        "w": 856,
+        "h": 359
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 168,
+        "y": 516,
+        "w": 856,
+        "h": 359
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_16.png": {
+      "frame": {
+        "x": 4854,
+        "y": 0,
+        "w": 854,
+        "h": 359
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 170,
+        "y": 516,
+        "w": 854,
+        "h": 359
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_17.png": {
+      "frame": {
+        "x": 3938,
+        "y": 349,
+        "w": 854,
+        "h": 359
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 170,
+        "y": 516,
+        "w": 854,
+        "h": 359
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_18.png": {
+      "frame": {
+        "x": 3938,
+        "y": 708,
+        "w": 853,
+        "h": 359
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 171,
+        "y": 516,
+        "w": 853,
+        "h": 359
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_08.png": {
+      "frame": {
+        "x": 2865,
+        "y": 968,
+        "w": 832,
+        "h": 622
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 148,
+        "y": 159,
+        "w": 832,
+        "h": 622
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_12.png": {
+      "frame": {
+        "x": 1801,
+        "y": 1312,
+        "w": 831,
+        "h": 462
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 206,
+        "y": 333,
+        "w": 831,
+        "h": 462
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_13.png": {
+      "frame": {
+        "x": 856,
+        "y": 1540,
+        "w": 816,
+        "h": 467
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 210,
+        "y": 325,
+        "w": 816,
+        "h": 467
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 1642,
+        "w": 810,
+        "h": 401
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 200,
+        "y": 379,
+        "w": 810,
+        "h": 401
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_07.png": {
+      "frame": {
+        "x": 5708,
+        "y": 0,
+        "w": 808,
+        "h": 686
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 386,
+        "y": 170,
+        "w": 808,
+        "h": 686
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_09.png": {
+      "frame": {
+        "x": 4792,
+        "y": 359,
+        "w": 777,
+        "h": 509
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 289,
+        "w": 777,
+        "h": 509
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_02.png": {
+      "frame": {
+        "x": 4792,
+        "y": 868,
+        "w": 767,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 173,
+        "y": 180,
+        "w": 767,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_08.png": {
+      "frame": {
+        "x": 3697,
+        "y": 1067,
+        "w": 733,
+        "h": 503
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 437,
+        "y": 322,
+        "w": 733,
+        "h": 503
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_12.png": {
+      "frame": {
+        "x": 4430,
+        "y": 1067,
+        "w": 360,
+        "h": 513
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 302,
+        "y": 283,
+        "w": 360,
+        "h": 513
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_04.png": {
+      "frame": {
+        "x": 3697,
+        "y": 1570,
+        "w": 508,
+        "h": 728
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 258,
+        "y": 66,
+        "w": 508,
+        "h": 728
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_09.png": {
+      "frame": {
+        "x": 2632,
+        "y": 1590,
+        "w": 635,
+        "h": 427
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 490,
+        "y": 377,
+        "w": 635,
+        "h": 427
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_01.png": {
+      "frame": {
+        "x": 3267,
+        "y": 1590,
+        "w": 517,
+        "h": 430
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 320,
+        "y": 341,
+        "w": 517,
+        "h": 430
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_10.png": {
+      "frame": {
+        "x": 1672,
+        "y": 1774,
+        "w": 592,
+        "h": 478
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 400,
+        "y": 324,
+        "w": 592,
+        "h": 478
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_11.png": {
+      "frame": {
+        "x": 810,
+        "y": 2017,
+        "w": 582,
+        "h": 511
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 342,
+        "y": 286,
+        "w": 582,
+        "h": 511
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_02.png": {
+      "frame": {
+        "x": 0,
+        "y": 2043,
+        "w": 551,
+        "h": 440
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 296,
+        "y": 367,
+        "w": 551,
+        "h": 440
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_07.png": {
+      "frame": {
+        "x": 0,
+        "y": 2483,
+        "w": 484,
+        "h": 535
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 319,
+        "y": 261,
+        "w": 484,
+        "h": 535
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_05.png": {
+      "frame": {
+        "x": 2264,
+        "y": 2017,
+        "w": 415,
+        "h": 534
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 353,
+        "y": 263,
+        "w": 415,
+        "h": 534
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_01.png": {
+      "frame": {
+        "x": 2798,
+        "y": 2017,
+        "w": 469,
+        "h": 440
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 293,
+        "y": 354,
+        "w": 469,
+        "h": 440
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_10.png": {
+      "frame": {
+        "x": 1392,
+        "y": 2252,
+        "w": 532,
+        "h": 505
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 307,
+        "y": 289,
+        "w": 532,
+        "h": 505
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_09.png": {
+      "frame": {
+        "x": 535,
+        "y": 2528,
+        "w": 531,
+        "h": 478
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 314,
+        "y": 314,
+        "w": 531,
+        "h": 478
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_08.png": {
+      "frame": {
+        "x": 0,
+        "y": 2967,
+        "w": 530,
+        "h": 442
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 321,
+        "y": 364,
+        "w": 530,
+        "h": 442
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/die/ninja-die_00.png": {
+      "frame": {
+        "x": 1924,
+        "y": 2432,
+        "w": 528,
+        "h": 502
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 306,
+        "y": 294,
+        "w": 528,
+        "h": 502
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_00.png": {
+      "frame": {
+        "x": 1066,
+        "y": 2757,
+        "w": 528,
+        "h": 502
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 306,
+        "y": 294,
+        "w": 528,
+        "h": 502
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_00.png": {
+      "frame": {
+        "x": 530,
+        "y": 3006,
+        "w": 527,
+        "h": 495
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 359,
+        "y": 307,
+        "w": 527,
+        "h": 495
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_14.png": {
+      "frame": {
+        "x": 0,
+        "y": 3409,
+        "w": 524,
+        "h": 495
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 358,
+        "y": 308,
+        "w": 524,
+        "h": 495
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_06.png": {
+      "frame": {
+        "x": 6516,
+        "y": 0,
+        "w": 484,
+        "h": 524
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 319,
+        "y": 272,
+        "w": 484,
+        "h": 524
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_08.png": {
+      "frame": {
+        "x": 7040,
+        "y": 0,
+        "w": 488,
+        "h": 522
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 326,
+        "y": 273,
+        "w": 488,
+        "h": 522
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_15.png": {
+      "frame": {
+        "x": 6516,
+        "y": 484,
+        "w": 521,
+        "h": 494
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 351,
+        "y": 307,
+        "w": 521,
+        "h": 494
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_28.png": {
+      "frame": {
+        "x": 7562,
+        "y": 0,
+        "w": 520,
+        "h": 493
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 358,
+        "y": 310,
+        "w": 520,
+        "h": 493
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_22.png": {
+      "frame": {
+        "x": 7037,
+        "y": 488,
+        "w": 493,
+        "h": 519
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 333,
+        "y": 276,
+        "w": 493,
+        "h": 519
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_21.png": {
+      "frame": {
+        "x": 7556,
+        "y": 493,
+        "w": 492,
+        "h": 519
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 327,
+        "y": 277,
+        "w": 492,
+        "h": 519
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_05.png": {
+      "frame": {
+        "x": 5569,
+        "y": 686,
+        "w": 514,
+        "h": 518
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 321,
+        "y": 281,
+        "w": 514,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_07.png": {
+      "frame": {
+        "x": 6087,
+        "y": 686,
+        "w": 428,
+        "h": 513
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 327,
+        "y": 284,
+        "w": 428,
+        "h": 513
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_01.png": {
+      "frame": {
+        "x": 6515,
+        "y": 978,
+        "w": 516,
+        "h": 494
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 346,
+        "y": 306,
+        "w": 516,
+        "h": 494
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_01.png": {
+      "frame": {
+        "x": 6087,
+        "y": 1199,
+        "w": 440,
+        "h": 428
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 169,
+        "y": 375,
+        "w": 440,
+        "h": 428
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_13.png": {
+      "frame": {
+        "x": 7031,
+        "y": 981,
+        "w": 516,
+        "h": 492
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 355,
+        "y": 311,
+        "w": 516,
+        "h": 492
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_04.png": {
+      "frame": {
+        "x": 6515,
+        "y": 1472,
+        "w": 513,
+        "h": 515
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 317,
+        "y": 291,
+        "w": 513,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_06.png": {
+      "frame": {
+        "x": 5559,
+        "y": 1200,
+        "w": 515,
+        "h": 460
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 323,
+        "y": 330,
+        "w": 515,
+        "h": 460
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_06.png": {
+      "frame": {
+        "x": 6074,
+        "y": 1639,
+        "w": 430,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 344,
+        "y": 282,
+        "w": 430,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_07.png": {
+      "frame": {
+        "x": 5559,
+        "y": 1660,
+        "w": 515,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 331,
+        "y": 354,
+        "w": 515,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_04.png": {
+      "frame": {
+        "x": 7547,
+        "y": 985,
+        "w": 426,
+        "h": 513
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 343,
+        "y": 283,
+        "w": 426,
+        "h": 513
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_03.png": {
+      "frame": {
+        "x": 7547,
+        "y": 1411,
+        "w": 512,
+        "h": 491
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 313,
+        "y": 315,
+        "w": 512,
+        "h": 491
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_05.png": {
+      "frame": {
+        "x": 7030,
+        "y": 1473,
+        "w": 485,
+        "h": 512
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 318,
+        "y": 284,
+        "w": 485,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_08.png": {
+      "frame": {
+        "x": 7030,
+        "y": 1958,
+        "w": 465,
+        "h": 511
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 255,
+        "y": 294,
+        "w": 465,
+        "h": 511
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_11.png": {
+      "frame": {
+        "x": 6504,
+        "y": 1985,
+        "w": 413,
+        "h": 511
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 269,
+        "y": 286,
+        "w": 413,
+        "h": 511
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_27.png": {
+      "frame": {
+        "x": 6504,
+        "y": 2398,
+        "w": 510,
+        "h": 488
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 357,
+        "y": 315,
+        "w": 510,
+        "h": 488
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_16.png": {
+      "frame": {
+        "x": 7542,
+        "y": 1902,
+        "w": 509,
+        "h": 488
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 339,
+        "y": 308,
+        "w": 509,
+        "h": 488
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_20.png": {
+      "frame": {
+        "x": 7542,
+        "y": 2390,
+        "w": 492,
+        "h": 508
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 322,
+        "y": 288,
+        "w": 492,
+        "h": 508
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_12.png": {
+      "frame": {
+        "x": 7014,
+        "y": 2423,
+        "w": 508,
+        "h": 486
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 352,
+        "y": 317,
+        "w": 508,
+        "h": 486
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_09.png": {
+      "frame": {
+        "x": 7014,
+        "y": 2909,
+        "w": 507,
+        "h": 491
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 174,
+        "y": 319,
+        "w": 507,
+        "h": 491
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_13.png": {
+      "frame": {
+        "x": 7522,
+        "y": 2882,
+        "w": 383,
+        "h": 507
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 306,
+        "y": 289,
+        "w": 383,
+        "h": 507
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_09.png": {
+      "frame": {
+        "x": 7522,
+        "y": 3265,
+        "w": 493,
+        "h": 506
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 334,
+        "y": 291,
+        "w": 493,
+        "h": 506
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_11.png": {
+      "frame": {
+        "x": 4790,
+        "y": 1425,
+        "w": 505,
+        "h": 493
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 326,
+        "y": 274,
+        "w": 505,
+        "h": 493
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_02.png": {
+      "frame": {
+        "x": 4790,
+        "y": 1918,
+        "w": 505,
+        "h": 490
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 334,
+        "y": 305,
+        "w": 505,
+        "h": 490
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_23.png": {
+      "frame": {
+        "x": 4790,
+        "y": 2408,
+        "w": 494,
+        "h": 504
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 340,
+        "y": 291,
+        "w": 494,
+        "h": 504
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_14.png": {
+      "frame": {
+        "x": 5295,
+        "y": 2104,
+        "w": 383,
+        "h": 504
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 306,
+        "y": 292,
+        "w": 383,
+        "h": 504
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_00.png": {
+      "frame": {
+        "x": 5799,
+        "y": 2408,
+        "w": 394,
+        "h": 502
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 306,
+        "y": 294,
+        "w": 394,
+        "h": 502
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_19.png": {
+      "frame": {
+        "x": 5295,
+        "y": 2487,
+        "w": 491,
+        "h": 501
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 317,
+        "y": 295,
+        "w": 491,
+        "h": 501
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_26.png": {
+      "frame": {
+        "x": 5796,
+        "y": 2802,
+        "w": 501,
+        "h": 482
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 355,
+        "y": 322,
+        "w": 501,
+        "h": 482
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_11.png": {
+      "frame": {
+        "x": 6297,
+        "y": 2886,
+        "w": 500,
+        "h": 480
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 349,
+        "y": 324,
+        "w": 500,
+        "h": 480
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_10.png": {
+      "frame": {
+        "x": 6297,
+        "y": 3366,
+        "w": 478,
+        "h": 500
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 218,
+        "y": 298,
+        "w": 478,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_02.png": {
+      "frame": {
+        "x": 6297,
+        "y": 3844,
+        "w": 500,
+        "h": 407
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 105,
+        "y": 404,
+        "w": 500,
+        "h": 407
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_17.png": {
+      "frame": {
+        "x": 6297,
+        "y": 4251,
+        "w": 499,
+        "h": 490
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 326,
+        "y": 305,
+        "w": 499,
+        "h": 490
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_10.png": {
+      "frame": {
+        "x": 6797,
+        "y": 3400,
+        "w": 496,
+        "h": 492
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 342,
+        "y": 310,
+        "w": 496,
+        "h": 492
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_18.png": {
+      "frame": {
+        "x": 6797,
+        "y": 3892,
+        "w": 489,
+        "h": 496
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 313,
+        "y": 299,
+        "w": 489,
+        "h": 496
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_04.png": {
+      "frame": {
+        "x": 6797,
+        "y": 4381,
+        "w": 487,
+        "h": 496
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 315,
+        "y": 299,
+        "w": 487,
+        "h": 496
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_03.png": {
+      "frame": {
+        "x": 6797,
+        "y": 4868,
+        "w": 495,
+        "h": 492
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 321,
+        "y": 304,
+        "w": 495,
+        "h": 492
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_24.png": {
+      "frame": {
+        "x": 7293,
+        "y": 3758,
+        "w": 493,
+        "h": 494
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 347,
+        "y": 307,
+        "w": 493,
+        "h": 494
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/idle active/ninja-idle active_25.png": {
+      "frame": {
+        "x": 7293,
+        "y": 4251,
+        "w": 493,
+        "h": 478
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 353,
+        "y": 325,
+        "w": 493,
+        "h": 478
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_03.png": {
+      "frame": {
+        "x": 7293,
+        "y": 4729,
+        "w": 447,
+        "h": 483
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 328,
+        "y": 313,
+        "w": 447,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/slash/ninja-slash_03.png": {
+      "frame": {
+        "x": 7292,
+        "y": 5176,
+        "w": 481,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 123,
+        "y": 352,
+        "w": 481,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/run/ninja-run_00.png": {
+      "frame": {
+        "x": 3697,
+        "y": 2078,
+        "w": 472,
+        "h": 457
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 348,
+        "y": 298,
+        "w": 472,
+        "h": 457
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja cat/pull lever/ninja-pull lever_02.png": {
+      "frame": {
+        "x": 4169,
+        "y": 2457,
+        "w": 470,
+        "h": 452
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 313,
+        "y": 343,
+        "w": 470,
+        "h": 452
+      },
+      "sourceSize": {
+        "w": 1258,
+        "h": 981
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "player.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 8082,
+      "h": 5620
+    },
+    "scale": 1
+  }
+}
