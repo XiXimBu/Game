@@ -1,0 +1,95 @@
+{
+	"frames": {
+		"map1_item_00.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 119,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 119,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 119,
+				"h": 128
+			}
+		},
+		"map1_item_01.png": {
+			"frame": {
+				"x": 122,
+				"y": 1,
+				"w": 119,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 119,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 119,
+				"h": 128
+			}
+		},
+		"map1_item_02.png": {
+			"frame": {
+				"x": 243,
+				"y": 1,
+				"w": 119,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 119,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 119,
+				"h": 128
+			}
+		},
+		"map1_item_03.png": {
+			"frame": {
+				"x": 1,
+				"y": 131,
+				"w": 119,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 119,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 119,
+				"h": 128
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "item.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 363,
+			"h": 260
+		},
+		"scale": "1"
+	}
+}

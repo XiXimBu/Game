@@ -9,6 +9,7 @@ export type HandData = {
     normY: number;
     tiltDeg: number;
     span: number;
+    isRightGrab: boolean;
 
     /** Tay trái — nắm tay = ninja nhảy (không dùng cho chim) */
     hasLeftHand: boolean;
@@ -32,69 +33,43 @@ function dist2(
     return Math.hypot(dx, dy);
 }
 
-/** Heuristic “đầu ngón giữa gần cổ tay” — dùng chung, không đủ để phân biệt nắm vs số 1. */
-function middleTipNearWrist(lm: { x: number; y: number }[]): boolean {
-    return dist2(lm[0], lm[12]) < 0.19;
-}
-
-function grabFromLandmarks(lm: { x: number; y: number }[]): boolean {
-    return middleTipNearWrist(lm);
-}
-
-/**
- * Trỏ đang duỗi (hình dạng số 1) — dùng để **không** coi là nắm tay:
- * khi cụp 3 ngón, đầu giữa cũng gần cổ tay nên chỉ `middleTipNearWrist` sẽ nhầm “chỉ trỏ” thành nắm.
- */
-function leftIndexExtendedShape(lm: { x: number; y: number }[]): boolean {
-    const d = (i: number, j: number) => dist2(lm[i], lm[j]);
-    const ref = Math.max(d(0, 9), d(0, 5), d(0, 17) * 0.45, 0.032);
-    return d(8, 6) > ref * 0.075 && d(0, 8) > d(0, 6) * 0.88;
-}
-
-/** Nắm tay thật → nhảy: gần như nắm **và** không phải tư thế trỏ duỗi. */
-function leftHandGrabForJump(lm: { x: number; y: number }[]): boolean {
-    return middleTipNearWrist(lm) && !leftIndexExtendedShape(lm);
-}
-
-/**
- * Ngón cụp (giữa/ápút/út): khoảng cách tip–PIP nhỏ **hoặc** (tay thẳng đứng) tip nằm
- * phía dưới PIP trên màn hình — heuristic 2D thuần hay lệch khi giơ số 1 thẳng lên.
- */
-function fingerCurledForOne(
+/** Kiểm tra một ngón có đang gập chặt hay không (đo theo gốc cổ tay). */
+function isFingerFolded(
     lm: { x: number; y: number }[],
-    ref: number,
+    wrist: number,
+    mcp: number,
     tip: number,
-    pip: number,
 ): boolean {
-    const d = (i: number, j: number) => dist2(lm[i], lm[j]);
-    const byDist = d(tip, pip) < ref * 0.42;
-    const byY = lm[tip].y > lm[pip].y - 0.012;
-    return byDist || byY;
+    return dist2(lm[wrist], lm[tip]) < dist2(lm[wrist], lm[mcp]);
 }
 
-/**
- * Giơ **số 1** (slash): trỏ duỗi; giữa/ápút/út cụp; ngón cái không chọi trỏ.
- * (Chỉ tay trái được gán `isOneGesture` trong vòng onResults.)
- */
-function oneGestureFromLandmarks(lm: { x: number; y: number }[]): boolean {
-    const d = (i: number, j: number) => dist2(lm[i], lm[j]);
-    const ref = Math.max(d(0, 9), d(0, 5), d(0, 17) * 0.45, 0.032);
+/** Kiểm tra một ngón có đang duỗi thẳng hay không (ngưỡng 1.4 để chống nhiễu chuyển tiếp). */
+function isFingerExtended(
+    lm: { x: number; y: number }[],
+    wrist: number,
+    mcp: number,
+    tip: number,
+): boolean {
+    return dist2(lm[wrist], lm[tip]) > dist2(lm[wrist], lm[mcp]) * 1.4;
+}
 
-    const indexExtended = leftIndexExtendedShape(lm);
-
-    const thumbIpToTip = d(3, 4);
-    const wristToThumbTip = d(0, 4);
-    const wristToIndexTip = d(0, 8);
-    const thumbFoldedLikeSide =
-        thumbIpToTip < ref * 0.58 ||
-        wristToThumbTip < wristToIndexTip * 0.92;
-
+/** NẮM TAY → NHẢY: 4 ngón chính (trỏ/giữa/áp út/út) đều gập. */
+function leftHandGrabForJump(lm: { x: number; y: number }[]): boolean {
     return (
-        indexExtended &&
-        fingerCurledForOne(lm, ref, 12, 10) &&
-        fingerCurledForOne(lm, ref, 16, 14) &&
-        fingerCurledForOne(lm, ref, 20, 18) &&
-        thumbFoldedLikeSide
+        isFingerFolded(lm, 0, 5, 8) &&
+        isFingerFolded(lm, 0, 9, 12) &&
+        isFingerFolded(lm, 0, 13, 16) &&
+        isFingerFolded(lm, 0, 17, 20)
+    );
+}
+
+/** GIƠ SỐ 1 → CHÉM: trỏ duỗi, 3 ngón còn lại gập. */
+function oneGestureFromLandmarks(lm: { x: number; y: number }[]): boolean {
+    return (
+        isFingerExtended(lm, 0, 5, 8) &&
+        isFingerFolded(lm, 0, 9, 12) &&
+        isFingerFolded(lm, 0, 13, 16) &&
+        isFingerFolded(lm, 0, 17, 20)
     );
 }
 
@@ -170,6 +145,7 @@ export class HandTracker {
         normY: 0.5,
         tiltDeg: 0,
         span: 0,
+        isRightGrab: false,
         hasLeftHand: false,
         isGrab: false,
         isOneGesture: false,
@@ -341,6 +317,7 @@ export class HandTracker {
 
             this.handData.hasRightHand = false;
             this.handData.hasLeftHand = false;
+            this.handData.isRightGrab = false;
             this.handData.isGrab = false;
             this.handData.isOneGesture = false;
 
@@ -375,6 +352,7 @@ export class HandTracker {
                 /** Khớp cảm giác “gương”: tay phải trên màn hình ↔ chim bay cùng phía */
                 this.handData.normX = 1 - tipIndex.x;
                 this.handData.normY = tipIndex.y;
+                this.handData.isRightGrab = leftHandGrabForJump(lm);
             }
 
             if (ninja) {

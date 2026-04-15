@@ -30,6 +30,14 @@ import {
     inferBottomKindFromFrame,
 } from './map1-enemy.config.js';
 
+const ITEM_ATLAS_KEY = 'map1_item';
+const ITEM_COLLECT_SFX_KEY = 'item_collect_sfx';
+const HUD_HEALTH_ICON_KEY = 'hud_health_icon';
+const HUD_MANA_ICON_KEY = 'hud_mana_icon';
+const BIRD_SKILL_ATLAS_KEY = 'bird_skill_atlas';
+const BIRD_SKILL_ANIM_KEY = 'bird_skill';
+const BIRD_SKILL_FRAME_PREFIX = 'bird-skill_';
+
 export class MainScene extends Phaser.Scene {
     private ninja!: NinjaCat;
     private bird!: Bird;
@@ -39,11 +47,29 @@ export class MainScene extends Phaser.Scene {
     /** Mặt đất cố định (không dùng `ninja.sprite.y` — khi nhảy Y thay đổi). */
     private groundY = 0;
     private obstacleGroup!: Phaser.Physics.Arcade.Group;
+    private itemGroup!: Phaser.Physics.Arcade.Group;
     private bottomObstacles: Phaser.Physics.Arcade.Sprite[] = [];
+    private bottomItems: Phaser.Physics.Arcade.Sprite[] = [];
     private highEnemies: Phaser.Physics.Arcade.Sprite[] = [];
     private bottomEnemyManager: Map1EnemyManager | null = null;
+    private itemSpawnBudgetLeft = 0;
     private isGameOver = false;
+    private playerHealth = 2;
+    private playerMana = 3;
+    private firePassCount = 0;
+    private lastEnemyDamageAtMs = -99999;
+    private readonly enemyDamageCooldownMs = 1000;
     private map1ThemeMusic: Phaser.Sound.BaseSound | null = null;
+    private hudHealthIcons: Phaser.GameObjects.Image[] = [];
+    private hudManaIcons: Phaser.GameObjects.Image[] = [];
+    private birdSkillProjectiles: Phaser.Physics.Arcade.Sprite[] = [];
+    private birdSkillActiveUntilMs = 0;
+    private birdSkillLastShotAtMs = -99999;
+    private prevRightGrab = false;
+    private readonly birdSkillDurationMs = 5000;
+    private readonly birdSkillShotGapMs = 220;
+    private readonly birdSkillManaCost = 3;
+    private readonly birdSkillActiveScale = 1.2;
     private debugText!: Phaser.GameObjects.Text;
     private debugGraphics!: Phaser.GameObjects.Graphics;
     private debugConfig = {
@@ -73,6 +99,11 @@ export class MainScene extends Phaser.Scene {
             new URL('../assets/map1/bird/map1_bird.png', import.meta.url).href,
             new URL('../assets/map1/bird/map1_bird.json', import.meta.url).href,
         );
+        this.load.atlas(
+            BIRD_SKILL_ATLAS_KEY,
+            new URL('../assets/common/bird/bird-skill.png', import.meta.url).href,
+            new URL('../assets/common/bird/bird-skill.json', import.meta.url).href,
+        );
         for (const idx of MAP1_LAYER_INDICES) {
             this.load.image(
                 `bg_map1_layer${idx}`,
@@ -87,6 +118,11 @@ export class MainScene extends Phaser.Scene {
             M1_ENEMIES_ATLAS_KEY,
             new URL('../assets/map1/enemy/map1_enemy.png', import.meta.url).href,
             new URL('../assets/map1/enemy/map1_enemy.json', import.meta.url).href,
+        );
+        this.load.atlas(
+            ITEM_ATLAS_KEY,
+            new URL('../assets/map1/item/item.png', import.meta.url).href,
+            new URL('../assets/map1/item/item.json', import.meta.url).href,
         );
         this.load.image(
             'button_back',
@@ -106,6 +142,18 @@ export class MainScene extends Phaser.Scene {
             'ninja_slash_sfx',
             new URL('../assets/common/music/slash.mp3', import.meta.url).href,
         );
+        this.load.audio(
+            ITEM_COLLECT_SFX_KEY,
+            new URL('../assets/common/music/item.mp3', import.meta.url).href,
+        );
+        this.load.image(
+            HUD_HEALTH_ICON_KEY,
+            new URL('../assets/common/sfx/health.png', import.meta.url).href,
+        );
+        this.load.image(
+            HUD_MANA_ICON_KEY,
+            new URL('../assets/common/sfx/mana.png', import.meta.url).href,
+        );
         this.load.spritesheet(
             MAP1_DISAPPEAR_SHEET_KEY,
             new URL(
@@ -121,6 +169,14 @@ export class MainScene extends Phaser.Scene {
         // Sau game over, Arcade world có thể vẫn đang pause — bắt buộc resume để ván mới chạy bình thường.
         this.physics.resume();
         this.isGameOver = false;
+        this.playerHealth = 2;
+        this.playerMana = 3;
+        this.firePassCount = 0;
+        this.lastEnemyDamageAtMs = -99999;
+        this.birdSkillActiveUntilMs = 0;
+        this.birdSkillLastShotAtMs = -99999;
+        this.prevRightGrab = false;
+        this.birdSkillProjectiles = [];
         this.groundY = height - GROUND_MARGIN;
         // Đặt đáy world physics trùng groundY để player không bị chìm xuống mép dưới canvas.
         this.physics.world.setBounds(0, 0, width, this.groundY);
@@ -216,6 +272,20 @@ export class MainScene extends Phaser.Scene {
                 repeat: 0,
             });
         }
+        if (!this.anims.exists('m1_item_spin')) {
+            this.anims.create({
+                key: 'm1_item_spin',
+                frames: this.anims.generateFrameNames(ITEM_ATLAS_KEY, {
+                    prefix: 'map1_item_',
+                    start: 0,
+                    end: 3,
+                    suffix: '.png',
+                    zeroPad: 2,
+                }),
+                frameRate: 10,
+                repeat: -1,
+            });
+        }
 
         if (!this.anims.exists('bird_fly')) {
             this.anims.create({
@@ -242,6 +312,20 @@ export class MainScene extends Phaser.Scene {
                 repeat: 0,
             });
         }
+        if (!this.anims.exists(BIRD_SKILL_ANIM_KEY)) {
+            this.anims.create({
+                key: BIRD_SKILL_ANIM_KEY,
+                frames: this.anims.generateFrameNames(BIRD_SKILL_ATLAS_KEY, {
+                    prefix: BIRD_SKILL_FRAME_PREFIX,
+                    start: 0,
+                    end: 15,
+                    suffix: '.png',
+                    zeroPad: 2,
+                }),
+                frameRate: 22,
+                repeat: -1,
+            });
+        }
 
         this.ninja = new NinjaCat(
             this,
@@ -262,6 +346,7 @@ export class MainScene extends Phaser.Scene {
             true,
         );
         this.obstacleGroup = this.physics.add.group();
+        this.itemGroup = this.physics.add.group();
         registerMap1EnemyAnims(this, M1_ENEMIES_ATLAS_KEY);
         this.setupHighEnemies();
         this.setupBottomEnemies();
@@ -281,8 +366,16 @@ export class MainScene extends Phaser.Scene {
             undefined,
             this,
         );
+        this.physics.add.overlap(
+            this.ninja.sprite,
+            this.itemGroup,
+            (_cat, obj) => this.collectBottomItem(obj as unknown),
+            undefined,
+            this,
+        );
 
         this.createBackButton();
+        this.createHud();
         this.setupDebugControls();
     }
 
@@ -366,12 +459,41 @@ export class MainScene extends Phaser.Scene {
             console.warn('m1_enemies: không có frame bottom để xem thử.');
             return;
         }
+        const itemFrames = this.textures
+            .get(ITEM_ATLAS_KEY)
+            .getFrameNames()
+            .filter((name) => name.endsWith('.png'));
+        if (itemFrames.length === 0) {
+            console.warn('map1_item: không có frame item để spawn.');
+            return;
+        }
+        const resetItemBudget = (): void => {
+            // Mỗi cụm enemy chỉ rải 1-3 item.
+            this.itemSpawnBudgetLeft = Phaser.Math.Between(1, 3);
+        };
+        resetItemBudget();
 
         this.bottomEnemyManager = new Map1EnemyManager({
             scene: this,
             speedPxPerSec: Math.abs(BOTTOM_MOVE_SPEED_X),
             jumpTimeSec: NINJA_JUMP_AIR_TIME_SEC,
             pickFrame: () => Phaser.Math.RND.pick(bottomSpawnPool),
+            spawnItemBetween: (speedPxPerSec: number, delayMs: number) => {
+                if (this.itemSpawnBudgetLeft <= 0) {
+                    resetItemBudget();
+                    return;
+                }
+                const burstCount = Phaser.Math.Between(2, 3);
+                const count = Math.min(burstCount, this.itemSpawnBudgetLeft);
+                this.itemSpawnBudgetLeft -= count;
+                const firstSpawnDelayMs = Math.max(120, delayMs);
+                const burstGapMs = 130;
+                for (let i = 0; i < count; i++) {
+                    this.time.delayedCall(firstSpawnDelayMs + (i * burstGapMs), () => {
+                        this.spawnBottomItem(speedPxPerSec, itemFrames);
+                    });
+                }
+            },
             spawnOne: (pickedFrame: string, speedPxPerSec: number) => {
                 const { width: w } = this.scale;
                 const isLimboAnim = pickedFrame === LIMBO_SPAWN_TOKEN;
@@ -434,6 +556,93 @@ export class MainScene extends Phaser.Scene {
                 this.bottomObstacles.push(spr);
             },
         });
+    }
+
+    private spawnBottomItem(
+        speedPxPerSec: number,
+        itemFrames: string[],
+    ): void {
+        if (this.isGameOver || this.physics.world.isPaused || this.debugConfig.freezeSpawning) {
+            return;
+        }
+        const frame = itemFrames.includes('map1_item_00.png')
+            ? 'map1_item_00.png'
+            : Phaser.Math.RND.pick(itemFrames);
+        const { width: w } = this.scale;
+        // Spawn từ mép phải như enemy bottom; timing delay sẽ đặt item vào khoảng giữa 2 enemy.
+        const spawnX = w + BOTTOM_SPAWN_OFFSCREEN_PX;
+        const item = this.physics.add.sprite(
+            spawnX,
+            this.groundY,
+            ITEM_ATLAS_KEY,
+            frame,
+        );
+        // Cùng logic xuất hiện như bottom enemy: neo đáy + scale theo chiều cao mèo.
+        item.setOrigin(0.5, 1);
+        const catHeight = Math.max(1, this.ninja.sprite.displayHeight);
+        // Item atlas có vùng hiển thị thực tế rất nhỏ so với toàn frame 119x128,
+        // nên ratio phải lớn hơn bottom-enemy thông thường để người chơi nhìn thấy rõ.
+        const itemScaleRatio = 1.15;
+        if (item.height > 0) {
+            item.setScale((catHeight * itemScaleRatio) / item.height);
+        }
+        const atlasFrame = this.textures.get(ITEM_ATLAS_KEY).get(frame);
+        const padSource = bottomTransparentPaddingSourcePx(atlasFrame);
+        const currentScale = Math.abs(item.scaleY);
+        item.y += padSource * currentScale;
+        const MAX_SINK = 5;
+        if (item.y > this.groundY + MAX_SINK) {
+            item.y = this.groundY + MAX_SINK;
+        }
+        // Nhấc nhẹ khỏi mặt đất để phần flame không bị chìm và dễ quan sát.
+        item.y -= Math.max(10, item.displayHeight * 0.12);
+        item.setDepth(44);
+        if (this.anims.exists('m1_item_spin')) {
+            item.play('m1_item_spin', true);
+        }
+        this.itemGroup.add(item);
+        // Sau khi add vào group, set lại body để tránh bị group default ghi đè.
+        item.setVelocityX(-Math.abs(speedPxPerSec));
+        item.setImmovable(true);
+        const itemBody = item.body as Phaser.Physics.Arcade.Body;
+        itemBody.setAllowGravity(false);
+        itemBody.setSize(item.displayWidth * 0.5, item.displayHeight * 0.45, true);
+        this.bottomItems.push(item);
+        // // --- PASTE ĐOẠN DEBUG NÀY VÀO CUỐI HÀM ---
+        // console.log('=== ITEM SPAWN DEBUG ===');
+        // console.log(`Tọa độ (X, Y): (${item.x}, ${item.y})`);
+        // console.log(
+        //     `Kích thước (Width x Height): ${item.displayWidth} x ${item.displayHeight}`,
+        // );
+        // console.log(
+        //     `Alpha: ${item.alpha}, Visible: ${item.visible}, Depth: ${item.depth}`,
+        // );
+        // console.log(
+        //     'Gravity có bị ảnh hưởng không?',
+        //     (item.body as Phaser.Physics.Arcade.Body).allowGravity,
+        // );
+        // console.log(
+        //     `Velocity: (${item.body.velocity.x}, ${item.body.velocity.y})`,
+        // );
+        // console.log('=========================');
+    }
+
+    private collectBottomItem(obj: unknown): void {
+        const item = obj as Phaser.Physics.Arcade.Sprite | undefined;
+        if (!item || !item.active) {
+            return;
+        }
+        this.bottomItems = this.bottomItems.filter((spr) => spr !== item);
+        this.itemGroup.remove(item, true, true);
+        if (this.cache.audio.exists(ITEM_COLLECT_SFX_KEY)) {
+            this.sound.play(ITEM_COLLECT_SFX_KEY, { volume: 0.62 });
+        }
+        this.firePassCount += 1;
+        if (this.firePassCount >= 3) {
+            this.firePassCount = 0;
+            this.playerMana += 1;
+            this.refreshHud();
+        }
     }
 
     /** Slash: vùng overlap lớn phía trước mèo; chỉ enemy có `canSlash` (không gồm đạn). */
@@ -520,6 +729,7 @@ export class MainScene extends Phaser.Scene {
         }
 
         this.bird.updateFromHand(hd);
+        this.updateBirdSkillByRightHand(time);
 
         this.ninja.updateSlashGesture(hd);
         this.prevGrab = this.ninja.updateFromHand(hd, this.prevGrab);
@@ -566,8 +776,144 @@ export class MainScene extends Phaser.Scene {
             }
             return true;
         });
+        this.bottomItems = this.bottomItems.filter((spr) => {
+            if (!spr.active) {
+                return false;
+            }
+            if (spr.x < DESTROY_OFFSCREEN_X) {
+                spr.destroy();
+                return false;
+            }
+            return true;
+        });
+        this.updateBirdSkillProjectiles();
 
         this.updateDebugOverlay();
+    }
+
+    private updateBirdSkillByRightHand(nowMs: number): void {
+        const rightGrab = this.tracker.handData.hasRightHand && this.tracker.handData.isRightGrab;
+        const justGrabbed = rightGrab && !this.prevRightGrab;
+        this.prevRightGrab = rightGrab;
+
+        if (
+            justGrabbed &&
+            this.playerMana >= this.birdSkillManaCost &&
+            nowMs >= this.birdSkillActiveUntilMs
+        ) {
+            this.playerMana -= this.birdSkillManaCost;
+            this.refreshHud();
+            this.birdSkillActiveUntilMs = nowMs + this.birdSkillDurationMs;
+            this.birdSkillLastShotAtMs = nowMs - this.birdSkillShotGapMs;
+        }
+
+        const skillActive = nowMs < this.birdSkillActiveUntilMs;
+        if (
+            this.bird.sprite.active &&
+            this.bird.sprite.anims.currentAnim?.key !== 'bird_die'
+        ) {
+            const animKey = skillActive ? BIRD_SKILL_ANIM_KEY : 'bird_fly';
+            if (this.bird.sprite.anims.currentAnim?.key !== animKey && this.anims.exists(animKey)) {
+                this.bird.sprite.play(animKey, true);
+            }
+            this.bird.sprite.setScale(skillActive ? this.birdSkillActiveScale : 1);
+        }
+        if (!skillActive) {
+            return;
+        }
+        if (nowMs - this.birdSkillLastShotAtMs < this.birdSkillShotGapMs) {
+            return;
+        }
+        const target = this.findNearestEnemyAheadOfBird();
+        if (!target) {
+            return;
+        }
+        this.spawnBirdSkillProjectile(target);
+        this.birdSkillLastShotAtMs = nowMs;
+    }
+
+    private findNearestEnemyAheadOfBird(): Phaser.Physics.Arcade.Sprite | null {
+        const candidates = [...this.highEnemies, ...this.bottomObstacles].filter((spr) => {
+            if (!spr.active || spr.x <= this.bird.sprite.x - 12) {
+                return false;
+            }
+            // Chỉ lock mục tiêu vào high enemy và bottom enemy có animation frame (canSlash=true).
+            if (this.highEnemies.includes(spr)) {
+                return true;
+            }
+            return spr.getData('canSlash') === true;
+        });
+        if (candidates.length === 0) {
+            return null;
+        }
+        const byDistance = candidates.sort((a, b) => {
+            const da = Phaser.Math.Distance.Between(this.bird.sprite.x, this.bird.sprite.y, a.x, a.y);
+            const db = Phaser.Math.Distance.Between(this.bird.sprite.x, this.bird.sprite.y, b.x, b.y);
+            return da - db;
+        });
+        return byDistance[0] ?? null;
+    }
+
+    private spawnBirdSkillProjectile(target: Phaser.Physics.Arcade.Sprite): void {
+        const bullet = this.physics.add.sprite(
+            this.bird.sprite.x + 14,
+            this.bird.sprite.y,
+            BIRD_SKILL_ATLAS_KEY,
+            `${BIRD_SKILL_FRAME_PREFIX}00.png`,
+        );
+        bullet.setOrigin(0.5, 0.5);
+        bullet.setDepth(115);
+        const targetWidth = 26;
+        if (bullet.width > 0) {
+            bullet.setScale(targetWidth / bullet.width);
+        }
+        bullet.setData('targetEnemy', target);
+        bullet.setVelocityX(420);
+        bullet.setImmovable(true);
+        const body = bullet.body as Phaser.Physics.Arcade.Body;
+        body.setAllowGravity(false);
+        body.setCircle(Math.max(4, bullet.displayWidth * 0.24), 0, 0);
+        this.birdSkillProjectiles.push(bullet);
+    }
+
+    private updateBirdSkillProjectiles(): void {
+        this.birdSkillProjectiles = this.birdSkillProjectiles.filter((bullet) => {
+            if (!bullet.active) {
+                return false;
+            }
+            let target = bullet.getData('targetEnemy') as Phaser.Physics.Arcade.Sprite | undefined;
+            if (!target || !target.active) {
+                target = this.findNearestEnemyAheadOfBird() ?? undefined;
+                bullet.setData('targetEnemy', target);
+            }
+            if (target) {
+                const angle = Phaser.Math.Angle.Between(
+                    bullet.x,
+                    bullet.y,
+                    target.x,
+                    target.y,
+                );
+                this.physics.velocityFromRotation(angle, 560, (bullet.body as Phaser.Physics.Arcade.Body).velocity);
+                const hitRadius = Math.max(16, (target.displayWidth + target.displayHeight) * 0.2);
+                if (Phaser.Math.Distance.Between(bullet.x, bullet.y, target.x, target.y) <= hitRadius) {
+                    this.killEnemyWithDisappear(target);
+                    bullet.destroy();
+                    return false;
+                }
+            } else {
+                bullet.setVelocityX(460);
+            }
+            if (
+                bullet.x > this.scale.width + 60 ||
+                bullet.x < DESTROY_OFFSCREEN_X - 60 ||
+                bullet.y < -80 ||
+                bullet.y > this.scale.height + 80
+            ) {
+                bullet.destroy();
+                return false;
+            }
+            return true;
+        });
     }
 
     /**
@@ -679,8 +1025,31 @@ export class MainScene extends Phaser.Scene {
             this.bird.sprite.setTint(0x65ff7f);
             return;
         }
+        const now = this.time.now;
+        if (now - this.lastEnemyDamageAtMs < this.enemyDamageCooldownMs) {
+            return;
+        }
+        this.lastEnemyDamageAtMs = now;
+        this.playerHealth -= 1;
+        this.refreshHud();
+        if (this.playerHealth > 0) {
+            this.ninja.sprite.setTintFill(0xff7f7f);
+            this.bird.sprite.setTintFill(0xff7f7f);
+            this.time.delayedCall(160, () => {
+                if (!this.isGameOver) {
+                    this.ninja.sprite.clearTint();
+                    this.bird.sprite.clearTint();
+                }
+            });
+            return;
+        }
 
         this.isGameOver = true;
+        this.birdSkillActiveUntilMs = 0;
+        for (const bullet of this.birdSkillProjectiles) {
+            bullet.destroy();
+        }
+        this.birdSkillProjectiles = [];
         this.physics.pause();
         this.stopMap1ThemeMusic();
 
@@ -705,6 +1074,49 @@ export class MainScene extends Phaser.Scene {
         this.time.delayedCall(2000, () => {
             this.scene.start('StartMenuScene', { tracker: this.tracker });
         });
+    }
+
+    private createHud(): void {
+        this.refreshHud();
+    }
+
+    private refreshHud(): void {
+        for (const icon of this.hudHealthIcons) {
+            icon.destroy();
+        }
+        for (const icon of this.hudManaIcons) {
+            icon.destroy();
+        }
+        this.hudHealthIcons = [];
+        this.hudManaIcons = [];
+
+        const { width } = this.scale;
+        const topY = 24;
+        const gap = 30;
+        const healthScale = 0.16;
+        const manaScale = 0.14;
+        const healthStartX = width - 22;
+        const manaStartX = width - 22;
+        const manaRowY = topY + 30;
+
+        for (let i = 0; i < this.playerHealth; i++) {
+            const icon = this.add
+                .image(healthStartX - (i * gap), topY, HUD_HEALTH_ICON_KEY)
+                .setOrigin(1, 0)
+                .setScale(healthScale)
+                .setDepth(1100)
+                .setScrollFactor(0);
+            this.hudHealthIcons.push(icon);
+        }
+        for (let i = 0; i < this.playerMana; i++) {
+            const icon = this.add
+                .image(manaStartX - (i * gap), manaRowY, HUD_MANA_ICON_KEY)
+                .setOrigin(1, 0)
+                .setScale(manaScale)
+                .setDepth(1100)
+                .setScrollFactor(0);
+            this.hudManaIcons.push(icon);
+        }
     }
 
     private createBackButton(): void {
