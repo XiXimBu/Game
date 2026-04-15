@@ -6,6 +6,7 @@ type EnemySpawnManagerOptions = {
     jumpTimeSec: number;
     pickFrame: () => string;
     spawnOne: (frameName: string, speedPxPerSec: number) => void;
+    spawnItemBetween?: (speedPxPerSec: number, delayMs: number) => void;
 };
 
 /**
@@ -24,6 +25,7 @@ export class Map1EnemyManager {
     private readonly jumpTimeSec: number;
     private readonly pickFrame: () => string;
     private readonly spawnOne: (frameName: string, speedPxPerSec: number) => void;
+    private readonly spawnItemBetween?: (speedPxPerSec: number, delayMs: number) => void;
     private readonly slowStartDurationMs = 20000;
     private readonly slowStartFactor = 0.7;
     private readonly tryHardChance = 0.08;
@@ -38,6 +40,7 @@ export class Map1EnemyManager {
         this.jumpTimeSec = Math.max(0.1, opts.jumpTimeSec);
         this.pickFrame = opts.pickFrame;
         this.spawnOne = opts.spawnOne;
+        this.spawnItemBetween = opts.spawnItemBetween;
         // Batch đầu sẽ được chốt mốc ở lần update đầu tiên để đồng bộ với `nowMs`.
     }
 
@@ -57,7 +60,12 @@ export class Map1EnemyManager {
         this.spawnLeftInBatch -= 1;
 
         if (this.spawnLeftInBatch > 0) {
-            this.nextSpawnAtMs = nowMs + this.msForNextInBatch(speedNow);
+            const nextInBatchMs = this.msForNextInBatch(speedNow);
+            this.nextSpawnAtMs = nowMs + nextInBatchMs;
+            this.spawnItemBetween?.(
+                speedNow,
+                this.itemDelayWithinGapMs(nextInBatchMs),
+            );
             return;
         }
 
@@ -106,5 +114,15 @@ export class Map1EnemyManager {
         const gapPx = Phaser.Math.FloatBetween(minGapPx, maxGapPx);
         // 5) Đổi khoảng cách (px) -> thời gian (ms).
         return Math.round((gapPx / speedNow) * 1000);
+    }
+
+    private itemDelayWithinGapMs(nextInBatchMs: number): number {
+        // Tránh sát enemy trước/sau: random trong "vùng an toàn" của gap.
+        const minDelayMs = Math.round(nextInBatchMs * 0.25);
+        const maxDelayMs = Math.round(nextInBatchMs * 0.75);
+        if (maxDelayMs <= minDelayMs) {
+            return Math.max(120, minDelayMs);
+        }
+        return Phaser.Math.Between(minDelayMs, maxDelayMs);
     }
 }

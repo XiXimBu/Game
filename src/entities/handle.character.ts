@@ -94,37 +94,14 @@ export class NinjaCat {
         const edge = handData.isOneGesture && !this.prevOneGesture;
         this.prevOneGesture = handData.isOneGesture;
 
-        // --- BẮT ĐẦU DEBUG TRÊN TERMINAL ---
-        // Chỉ in log ra khi hệ thống nhận diện được "cạnh lên" (vừa giơ số 1 lên)
-        if (edge) {
-            console.log('🔥 TAY TRÁI ĐÃ GIƠ SỐ 1!');
-            console.log('   -> Đang kẹt chém (slashing)?', this.slashing);
-            console.log(
-                '   -> Cooldown đã xong chưa?',
-                this.scene.time.now >= this.slashCooldownUntil,
-            );
-            console.log(
-                "   -> Animation 'ninja_slash' có tồn tại không?",
-                this.scene.anims.exists('ninja_slash'),
-            );
-        }
-
         if (
             !edge ||
             this.slashing ||
             this.scene.time.now < this.slashCooldownUntil ||
             !this.scene.anims.exists('ninja_slash')
         ) {
-            if (edge) {
-                console.warn(
-                    '❌ LỆNH CHÉM BỊ HỦY BỎ VÌ KHÔNG QUA ĐƯỢC ĐIỀU KIỆN!',
-                );
-            }
             return;
         }
-
-        console.log('✅ KIỂM DUYỆT THÀNH CÔNG -> BẮT ĐẦU CHẠY ANIMATION CHÉM!');
-        // --- KẾT THÚC DEBUG ---
 
         this.slashing = true;
         this.slashLockUntil = this.scene.time.now + 140;
