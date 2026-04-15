@@ -18,6 +18,8 @@ export const MUSHROOM_SPAWN_TOKEN = '__mushroom_anim__';
 /** Atlas keys */
 export const BIRD_ATLAS_KEY = 'bird_atlas';
 export const M1_ENEMIES_ATLAS_KEY = 'm1_enemies';
+/** Spritesheet hiệu ứng biến mất khi enemy bị slash (map1_disappear.png + frame 0..20). */
+export const MAP1_DISAPPEAR_SHEET_KEY = 'map1_disappear';
 
 /** High lane scaling */
 export const SHOOTER_ENEMY_ANIM_KEYS = new Set(['m1_air', 'm1_ufo']);
@@ -25,12 +27,12 @@ export const MAX_HIGH_BODY_WIDTH_PX = 400;
 
 /** Bottom lane scaling */
 export const BOTTOM_SCALES: Record<string, number> = {
-    m1_spike: 0.45,
-    m1_mushroom: 0.35,
-    m1_limbo: 0.5,
-    m1_tree_trunk: 0.75,
+    m1_spike: 0.36,
+    m1_mushroom: 0.27,
+    m1_limbo: 0.39,
+    m1_tree_trunk: 0.57,
 };
-export const DEFAULT_BOTTOM_SCALE = 0.5;
+export const DEFAULT_BOTTOM_SCALE = 0.39;
 
 type AtlasFrameMeta = {
     sourceSize?: { h: number };

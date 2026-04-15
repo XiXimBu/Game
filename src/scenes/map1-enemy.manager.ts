@@ -30,6 +30,7 @@ export class Map1EnemyManager {
 
     private nextSpawnAtMs = 0;
     private spawnLeftInBatch = 0;
+    private firstBatchPlanned = false;
 
     constructor(opts: EnemySpawnManagerOptions) {
         this.scene = opts.scene;
@@ -37,11 +38,15 @@ export class Map1EnemyManager {
         this.jumpTimeSec = Math.max(0.1, opts.jumpTimeSec);
         this.pickFrame = opts.pickFrame;
         this.spawnOne = opts.spawnOne;
-        // Cho batch đầu xuất hiện sớm để tránh khoảng trống ~5s khi mới vào game.
-        this.planFirstBatchStart(0);
+        // Batch đầu sẽ được chốt mốc ở lần update đầu tiên để đồng bộ với `nowMs`.
     }
 
     update(nowMs: number): void {
+        if (!this.firstBatchPlanned) {
+            this.planFirstBatchStart(nowMs);
+            this.firstBatchPlanned = true;
+        }
+
         if (nowMs < this.nextSpawnAtMs) {
             return;
         }
@@ -67,7 +72,7 @@ export class Map1EnemyManager {
 
     private planFirstBatchStart(nowMs: number): void {
         this.spawnLeftInBatch = Phaser.Math.Between(1, 2);
-        const firstSpawnDelayMs = Phaser.Math.Between(450, 900);
+        const firstSpawnDelayMs = Phaser.Math.Between(4800, 5200);
         this.nextSpawnAtMs = nowMs + firstSpawnDelayMs;
     }
 

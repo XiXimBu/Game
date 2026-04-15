@@ -1,0 +1,156 @@
+{
+  "sprites": [
+    {
+      "fileName": "map1_disappear_00.png",
+      "width": 256,
+      "height": 256,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "fileName": "map1_disappear_01.png",
+      "width": 256,
+      "height": 256,
+      "x": 256,
+      "y": 0
+    },
+    {
+      "fileName": "map1_disappear_02.png",
+      "width": 256,
+      "height": 256,
+      "x": 512,
+      "y": 0
+    },
+    {
+      "fileName": "map1_disappear_03.png",
+      "width": 256,
+      "height": 256,
+      "x": 768,
+      "y": 0
+    },
+    {
+      "fileName": "map1_disappear_04.png",
+      "width": 256,
+      "height": 256,
+      "x": 1024,
+      "y": 0
+    },
+    {
+      "fileName": "map1_disappear_05.png",
+      "width": 256,
+      "height": 256,
+      "x": 0,
+      "y": 256
+    },
+    {
+      "fileName": "map1_disappear_06.png",
+      "width": 256,
+      "height": 256,
+      "x": 256,
+      "y": 256
+    },
+    {
+      "fileName": "map1_disappear_07.png",
+      "width": 256,
+      "height": 256,
+      "x": 512,
+      "y": 256
+    },
+    {
+      "fileName": "map1_disappear_08.png",
+      "width": 256,
+      "height": 256,
+      "x": 768,
+      "y": 256
+    },
+    {
+      "fileName": "map1_disappear_09.png",
+      "width": 256,
+      "height": 256,
+      "x": 1024,
+      "y": 256
+    },
+    {
+      "fileName": "map1_disappear_10.png",
+      "width": 256,
+      "height": 256,
+      "x": 0,
+      "y": 512
+    },
+    {
+      "fileName": "map1_disappear_11.png",
+      "width": 256,
+      "height": 256,
+      "x": 256,
+      "y": 512
+    },
+    {
+      "fileName": "map1_disappear_12.png",
+      "width": 256,
+      "height": 256,
+      "x": 512,
+      "y": 512
+    },
+    {
+      "fileName": "map1_disappear_13.png",
+      "width": 256,
+      "height": 256,
+      "x": 768,
+      "y": 512
+    },
+    {
+      "fileName": "map1_disappear_14.png",
+      "width": 256,
+      "height": 256,
+      "x": 1024,
+      "y": 512
+    },
+    {
+      "fileName": "map1_disappear_15.png",
+      "width": 256,
+      "height": 256,
+      "x": 0,
+      "y": 768
+    },
+    {
+      "fileName": "map1_disappear_16.png",
+      "width": 256,
+      "height": 256,
+      "x": 256,
+      "y": 768
+    },
+    {
+      "fileName": "map1_disappear_17.png",
+      "width": 256,
+      "height": 256,
+      "x": 512,
+      "y": 768
+    },
+    {
+      "fileName": "map1_disappear_18.png",
+      "width": 256,
+      "height": 256,
+      "x": 768,
+      "y": 768
+    },
+    {
+      "fileName": "map1_disappear_19.png",
+      "width": 256,
+      "height": 256,
+      "x": 1024,
+      "y": 768
+    },
+    {
+      "fileName": "map1_disappear_20.png",
+      "width": 256,
+      "height": 256,
+      "x": 0,
+      "y": 1024
+    }
+  ],
+  "packMode": "grid",
+  "padding": 0,
+  "backgroundColor": "rgba(0, 0, 0, 0)",
+  "spriteSheetWidth": 1280,
+  "spriteSheetHeight": 1280
+}

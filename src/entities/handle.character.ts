@@ -3,7 +3,8 @@ import type { HandData } from '../core/handle.trackhand.js';
 
 const PLAYER_TEXTURE_KEY = 'player';
 const PLAYER_FIRST_FRAME = 'ninja cat/run/ninja-run_00.png';
-const PLAYER_SCALE = 0.2;
+const PLAYER_SLASH_FIRST_FRAME = 'ninja cat/slash/ninja-slash_00.png';
+const PLAYER_SCALE = 0.11;
 const BIRD_TEXTURE_KEY = 'bird_atlas';
 const BIRD_FIRST_FRAME = 'bird/map1_bird_fly_00.png';
 const BIRD_LERP = 0.12;
@@ -13,15 +14,22 @@ export class NinjaCat {
     readonly sprite: Phaser.Physics.Arcade.Sprite;
     private readonly scene: Phaser.Scene;
     private readonly jumpSoundKey?: string;
+    private readonly slashSoundKey?: string;
+    private prevOneGesture = false;
+    private slashing = false;
+    private slashCooldownUntil = 0;
+    private slashLockUntil = 0;
 
     constructor(
         scene: Phaser.Scene,
         fixedX: number,
         groundY: number,
         jumpSoundKey?: string,
+        slashSoundKey?: string,
     ) {
         this.scene = scene;
         this.jumpSoundKey = jumpSoundKey;
+        this.slashSoundKey = slashSoundKey;
         this.sprite = scene.physics.add.sprite(
             fixedX,
             groundY,
@@ -34,6 +42,106 @@ export class NinjaCat {
         this.sprite.setCollideWorldBounds(true);
         this.sprite.setGravityY(1200);
         this.sprite.play('ninja_run');
+
+        this.sprite.on('animationcomplete', (anim: Phaser.Animations.Animation) => {
+            if (anim.key !== 'ninja_slash') {
+                return;
+            }
+            this.slashing = false;
+            this.slashLockUntil = 0;
+            this.slashCooldownUntil = this.scene.time.now + 650;
+            const body = this.sprite.body as Phaser.Physics.Arcade.Body;
+            if (body.blocked.down) {
+                this.sprite.play('ninja_run', true);
+            } else if (this.sprite.anims.exists('ninja_jump')) {
+                this.sprite.play('ninja_jump', true);
+            }
+        });
+    }
+
+    isSlashing(): boolean {
+        return this.slashing;
+    }
+
+    isSlashDamageActive(nowMs: number): boolean {
+        return this.slashing && nowMs < this.slashLockUntil;
+    }
+
+    /**
+     * Vùng chém mở rộng về phía phải (hướng quái tới), không đổi hitbox va chạm chết.
+     * Scene sẽ chỉ áp damage cho enemy có `canSlash = true`.
+     */
+    getSlashOverlapRect(): Phaser.Geom.Rectangle {
+        const b = this.sprite.getBounds();
+        // Giảm tầm chém để chỉ trúng enemy gần mèo, tránh "quét sạch" lane.
+        const extendRight = 160;
+        const extendLeft = 30;
+        const extendY = 30;
+        return new Phaser.Geom.Rectangle(
+            b.x - extendLeft,
+            b.y - extendY,
+            b.width + extendLeft + extendRight,
+            b.height + extendY * 2,
+        );
+    }
+
+    /** Tay trái giơ **số 1** (cạnh lên) → `ninja_slash`. */
+    updateSlashGesture(handData: HandData): void {
+        if (!handData.hasLeftHand) {
+            this.prevOneGesture = false;
+            return;
+        }
+        const edge = handData.isOneGesture && !this.prevOneGesture;
+        this.prevOneGesture = handData.isOneGesture;
+
+        // --- BẮT ĐẦU DEBUG TRÊN TERMINAL ---
+        // Chỉ in log ra khi hệ thống nhận diện được "cạnh lên" (vừa giơ số 1 lên)
+        if (edge) {
+            console.log('🔥 TAY TRÁI ĐÃ GIƠ SỐ 1!');
+            console.log('   -> Đang kẹt chém (slashing)?', this.slashing);
+            console.log(
+                '   -> Cooldown đã xong chưa?',
+                this.scene.time.now >= this.slashCooldownUntil,
+            );
+            console.log(
+                "   -> Animation 'ninja_slash' có tồn tại không?",
+                this.scene.anims.exists('ninja_slash'),
+            );
+        }
+
+        if (
+            !edge ||
+            this.slashing ||
+            this.scene.time.now < this.slashCooldownUntil ||
+            !this.scene.anims.exists('ninja_slash')
+        ) {
+            if (edge) {
+                console.warn(
+                    '❌ LỆNH CHÉM BỊ HỦY BỎ VÌ KHÔNG QUA ĐƯỢC ĐIỀU KIỆN!',
+                );
+            }
+            return;
+        }
+
+        console.log('✅ KIỂM DUYỆT THÀNH CÔNG -> BẮT ĐẦU CHẠY ANIMATION CHÉM!');
+        // --- KẾT THÚC DEBUG ---
+
+        this.slashing = true;
+        this.slashLockUntil = this.scene.time.now + 140;
+        if (
+            this.slashSoundKey &&
+            this.scene.cache.audio.exists(this.slashSoundKey)
+        ) {
+            this.scene.sound.play(this.slashSoundKey, { volume: 0.6 });
+        }
+
+        // Đoạn này có thể không cần thiết, cứ để Phaser tự lo
+        // this.sprite.anims.stop();
+
+        if (this.sprite.texture.key === PLAYER_TEXTURE_KEY) {
+            this.sprite.setFrame(PLAYER_SLASH_FIRST_FRAME);
+        }
+        this.sprite.play('ninja_slash', true);
     }
 
     /** Chỉ tay trái nắm → nhảy. @returns trạng thái nắm tay trái frame này (prevGrab ở scene) */
@@ -44,11 +152,15 @@ export class NinjaCat {
             return false;
         }
 
+        if (this.slashing || this.scene.time.now < this.slashLockUntil) {
+            return prevGrab;
+        }
+
         const nextGrab = handData.isGrab;
         const justGrabbed = handData.isGrab && !prevGrab;
 
         if (justGrabbed && body.blocked.down) {
-            this.sprite.setVelocityY(-600);
+            this.sprite.setVelocityY(-400);
             if (this.sprite.anims.exists('ninja_jump')) {
                 this.sprite.play('ninja_jump', true);
             }
@@ -60,7 +172,9 @@ export class NinjaCat {
             }
         } else if (
             body.blocked.down &&
-            this.sprite.anims.currentAnim?.key !== 'ninja_run'
+            !this.slashing &&
+            this.sprite.anims.currentAnim?.key !== 'ninja_run' &&
+            this.sprite.anims.currentAnim?.key !== 'ninja_slash'
         ) {
             this.sprite.play('ninja_run', true);
         }

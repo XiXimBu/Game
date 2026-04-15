@@ -18,6 +18,7 @@ import {
     DESTROY_OFFSCREEN_X,
     GROUND_MARGIN,
     LIMBO_SPAWN_TOKEN,
+    MAP1_DISAPPEAR_SHEET_KEY,
     M1_ENEMIES_ATLAS_KEY,
     MAP1_LAYER_INDICES,
     MAX_HIGH_BODY_WIDTH_PX,
@@ -101,6 +102,18 @@ export class MainScene extends Phaser.Scene {
             'ninja_jump_sfx',
             new URL('../assets/common/music/jump.mp3', import.meta.url).href,
         );
+        this.load.audio(
+            'ninja_slash_sfx',
+            new URL('../assets/common/music/slash.mp3', import.meta.url).href,
+        );
+        this.load.spritesheet(
+            MAP1_DISAPPEAR_SHEET_KEY,
+            new URL(
+                '../assets/map1/disappear/map1_disappear.png',
+                import.meta.url,
+            ).href,
+            { frameWidth: 256, frameHeight: 256 },
+        );
     }
 
     create() {
@@ -177,6 +190,33 @@ export class MainScene extends Phaser.Scene {
             });
         }
 
+        if (!this.anims.exists('ninja_slash')) {
+            this.anims.create({
+                key: 'ninja_slash',
+                frames: this.anims.generateFrameNames('player', {
+                    prefix: 'ninja cat/slash/ninja-slash_',
+                    start: 0,
+                    end: 11,
+                    suffix: '.png',
+                    zeroPad: 2,
+                }),
+                frameRate: 22,
+                repeat: 0,
+            });
+        }
+
+        if (!this.anims.exists('map1_disappear_fx')) {
+            this.anims.create({
+                key: 'map1_disappear_fx',
+                frames: this.anims.generateFrameNumbers(
+                    MAP1_DISAPPEAR_SHEET_KEY,
+                    { start: 0, end: 20 },
+                ),
+                frameRate: 24,
+                repeat: 0,
+            });
+        }
+
         if (!this.anims.exists('bird_fly')) {
             this.anims.create({
                 key: 'bird_fly',
@@ -203,7 +243,13 @@ export class MainScene extends Phaser.Scene {
             });
         }
 
-        this.ninja = new NinjaCat(this, CAT_FIXED_X, this.groundY, 'ninja_jump_sfx');
+        this.ninja = new NinjaCat(
+            this,
+            CAT_FIXED_X,
+            this.groundY,
+            'ninja_jump_sfx',
+            'ninja_slash_sfx',
+        );
         this.tuneNinjaHitbox();
         this.bird = new Bird(this, 200, 100);
         this.physics.add.existing(this.bird.sprite);
@@ -285,6 +331,7 @@ export class MainScene extends Phaser.Scene {
                 spr.setImmovable(true);
                 (spr.body as Phaser.Physics.Arcade.Body).setAllowGravity(false);
                 spr.setData('canHit', false);
+                spr.setData('canSlash', true);
                 this.highEnemies.push(spr);
 
                 if (SHOOTER_ENEMY_ANIM_KEYS.has(animKey) && bulletFrames.length > 0) {
@@ -381,9 +428,85 @@ export class MainScene extends Phaser.Scene {
                 spr.setImmovable(true);
                 (spr.body as Phaser.Physics.Arcade.Body).setAllowGravity(false);
                 spr.setData('canHit', false);
+                // Chỉ enemy có animation frame (limbo/mushroom) mới bị slash.
+                // Bottom static (spike/tree...) bắt buộc người chơi phải nhảy qua.
+                spr.setData('canSlash', isLimboAnim || isMushroomAnim);
                 this.bottomObstacles.push(spr);
             },
         });
+    }
+
+    /** Slash: vùng overlap lớn phía trước mèo; chỉ enemy có `canSlash` (không gồm đạn). */
+    private applySlashHits(): void {
+        const rect = this.ninja.getSlashOverlapRect();
+        const hit = (spr: Phaser.Physics.Arcade.Sprite) => {
+            if (!spr.active || !spr.getData('canSlash')) {
+                return false;
+            }
+            return Phaser.Geom.Rectangle.Overlaps(rect, spr.getBounds());
+        };
+        const bottomHits = this.bottomObstacles.filter(hit);
+        const highHits = this.highEnemies.filter(hit);
+        for (const spr of bottomHits) {
+            this.killEnemyWithDisappear(spr);
+        }
+        for (const spr of highHits) {
+            this.killEnemyWithDisappear(spr);
+        }
+    }
+
+    private killEnemyWithDisappear(enemy: Phaser.Physics.Arcade.Sprite): void {
+        if (!enemy.active || enemy.getData('canSlash') !== true) {
+            return;
+        }
+        const bounds = enemy.getBounds();
+        const scale = Phaser.Math.Clamp(
+            (enemy.displayWidth / 256) * 1.12,
+            0.12,
+            3.2,
+        );
+
+        this.bottomObstacles = this.bottomObstacles.filter((s) => s !== enemy);
+        this.highEnemies = this.highEnemies.filter((s) => s !== enemy);
+        this.obstacleGroup.remove(enemy, true, true);
+
+        const vfx = this.add.sprite(
+            bounds.centerX,
+            bounds.centerY,
+            MAP1_DISAPPEAR_SHEET_KEY,
+            0,
+        );
+        vfx.setOrigin(0.5, 0.5);
+        vfx.setDepth(220);
+        vfx.setScale(scale);
+        vfx.setAlpha(1);
+
+        if (this.anims.exists('map1_disappear_fx')) {
+            vfx.play('map1_disappear_fx');
+            vfx.on(
+                'animationupdate',
+                (
+                    _anim: Phaser.Animations.Animation,
+                    frame: Phaser.Animations.AnimationFrame,
+                ) => {
+                    const idx = frame.index;
+                    vfx.setAlpha(Math.max(0, 1 - idx / 21));
+                },
+            );
+            vfx.once('animationcomplete', () => {
+                vfx.destroy();
+            });
+        } else {
+            this.tweens.add({
+                targets: vfx,
+                alpha: 0,
+                duration: 700,
+                ease: 'Cubic.easeIn',
+                onComplete: () => {
+                    vfx.destroy();
+                },
+            });
+        }
     }
 
     update(time: number) {
@@ -398,12 +521,16 @@ export class MainScene extends Phaser.Scene {
 
         this.bird.updateFromHand(hd);
 
+        this.ninja.updateSlashGesture(hd);
         this.prevGrab = this.ninja.updateFromHand(hd, this.prevGrab);
 
         this.ninja.sprite.setVelocityX(0);
         this.ninja.sprite.x = CAT_FIXED_X;
         if (!this.debugConfig.freezeSpawning) {
             this.bottomEnemyManager?.update(time);
+        }
+        if (this.ninja.isSlashDamageActive(time)) {
+            this.applySlashHits();
         }
         // Chỉ bật hit cho obstacle khi đã tiến gần vùng chơi (tránh pause sớm ở mép phải).
         const armHitX = CAT_FIXED_X + 220;
@@ -527,6 +654,7 @@ export class MainScene extends Phaser.Scene {
                 b.setImmovable(true);
                 (b.body as Phaser.Physics.Arcade.Body).setAllowGravity(false);
                 b.setData('canHit', false);
+                b.setData('canSlash', false);
                 this.time.delayedCall(2000, () => {
                     b.destroy();
                 });
