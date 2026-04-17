@@ -74,9 +74,9 @@ export class NinjaCat {
     getSlashOverlapRect(): Phaser.Geom.Rectangle {
         const b = this.sprite.getBounds();
         // Giảm tầm chém để chỉ trúng enemy gần mèo, tránh "quét sạch" lane.
-        const extendRight = 160;
-        const extendLeft = 30;
-        const extendY = 30;
+        const extendRight = 110;
+        const extendLeft = 18;
+        const extendY = 24;
         return new Phaser.Geom.Rectangle(
             b.x - extendLeft,
             b.y - extendY,

@@ -1,0 +1,1255 @@
+{
+	"frames": {
+		"dragon_hurt_00.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_01.png": {
+			"frame": {
+				"x": 728,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_02.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_03.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_04.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_05.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_06.png": {
+			"frame": {
+				"x": 1,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_07.png": {
+			"frame": {
+				"x": 728,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_08.png": {
+			"frame": {
+				"x": 1455,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_09.png": {
+			"frame": {
+				"x": 2182,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_10.png": {
+			"frame": {
+				"x": 2909,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_11.png": {
+			"frame": {
+				"x": 3636,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_12.png": {
+			"frame": {
+				"x": 1,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_13.png": {
+			"frame": {
+				"x": 728,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_14.png": {
+			"frame": {
+				"x": 1455,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_15.png": {
+			"frame": {
+				"x": 2182,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_16.png": {
+			"frame": {
+				"x": 2909,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_17.png": {
+			"frame": {
+				"x": 3636,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_18.png": {
+			"frame": {
+				"x": 1,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_19.png": {
+			"frame": {
+				"x": 728,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_20.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_21.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_22.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_23.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_24.png": {
+			"frame": {
+				"x": 1,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_25.png": {
+			"frame": {
+				"x": 728,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_26.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_27.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_28.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_29.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_30.png": {
+			"frame": {
+				"x": 1,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_31.png": {
+			"frame": {
+				"x": 728,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_32.png": {
+			"frame": {
+				"x": 1455,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_33.png": {
+			"frame": {
+				"x": 2182,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_34.png": {
+			"frame": {
+				"x": 2909,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_35.png": {
+			"frame": {
+				"x": 3636,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_36.png": {
+			"frame": {
+				"x": 1,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_37.png": {
+			"frame": {
+				"x": 728,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_38.png": {
+			"frame": {
+				"x": 1455,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_39.png": {
+			"frame": {
+				"x": 2182,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_40.png": {
+			"frame": {
+				"x": 2909,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_41.png": {
+			"frame": {
+				"x": 3636,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_42.png": {
+			"frame": {
+				"x": 1,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_43.png": {
+			"frame": {
+				"x": 728,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_44.png": {
+			"frame": {
+				"x": 1455,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_45.png": {
+			"frame": {
+				"x": 2182,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_46.png": {
+			"frame": {
+				"x": 2909,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_47.png": {
+			"frame": {
+				"x": 3636,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_48.png": {
+			"frame": {
+				"x": 1,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_49.png": {
+			"frame": {
+				"x": 728,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_50.png": {
+			"frame": {
+				"x": 1455,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_51.png": {
+			"frame": {
+				"x": 2182,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_52.png": {
+			"frame": {
+				"x": 2909,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_53.png": {
+			"frame": {
+				"x": 3636,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_54.png": {
+			"frame": {
+				"x": 1,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_55.png": {
+			"frame": {
+				"x": 728,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_56.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_57.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_58.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_59.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_60.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_hurt_61.png": {
+			"frame": {
+				"x": 4363,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 5089,
+			"h": 4470
+		},
+		"scale": "1"
+	}
+}

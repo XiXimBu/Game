@@ -1,0 +1,3235 @@
+{
+	"frames": {
+		"dragon_attack_00.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_01.png": {
+			"frame": {
+				"x": 728,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_02.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_03.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_04.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_05.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_06.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_07.png": {
+			"frame": {
+				"x": 5090,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_08.png": {
+			"frame": {
+				"x": 5817,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_09.png": {
+			"frame": {
+				"x": 1,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_10.png": {
+			"frame": {
+				"x": 728,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_100.png": {
+			"frame": {
+				"x": 1455,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_101.png": {
+			"frame": {
+				"x": 2182,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_102.png": {
+			"frame": {
+				"x": 2909,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_103.png": {
+			"frame": {
+				"x": 3636,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_104.png": {
+			"frame": {
+				"x": 4363,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_105.png": {
+			"frame": {
+				"x": 5090,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_106.png": {
+			"frame": {
+				"x": 5817,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_107.png": {
+			"frame": {
+				"x": 1,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_108.png": {
+			"frame": {
+				"x": 728,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_109.png": {
+			"frame": {
+				"x": 1455,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_11.png": {
+			"frame": {
+				"x": 2182,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_110.png": {
+			"frame": {
+				"x": 2909,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_111.png": {
+			"frame": {
+				"x": 3636,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_112.png": {
+			"frame": {
+				"x": 4363,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_113.png": {
+			"frame": {
+				"x": 5090,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_114.png": {
+			"frame": {
+				"x": 5817,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_115.png": {
+			"frame": {
+				"x": 1,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_116.png": {
+			"frame": {
+				"x": 728,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_117.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_118.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_119.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_12.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_120.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_121.png": {
+			"frame": {
+				"x": 5090,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_122.png": {
+			"frame": {
+				"x": 5817,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_123.png": {
+			"frame": {
+				"x": 1,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_124.png": {
+			"frame": {
+				"x": 728,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_125.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_126.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_127.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_128.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_129.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_13.png": {
+			"frame": {
+				"x": 5090,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_130.png": {
+			"frame": {
+				"x": 5817,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_131.png": {
+			"frame": {
+				"x": 1,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_132.png": {
+			"frame": {
+				"x": 728,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_133.png": {
+			"frame": {
+				"x": 1455,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_134.png": {
+			"frame": {
+				"x": 2182,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_135.png": {
+			"frame": {
+				"x": 2909,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_136.png": {
+			"frame": {
+				"x": 3636,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_137.png": {
+			"frame": {
+				"x": 4363,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_138.png": {
+			"frame": {
+				"x": 5090,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_139.png": {
+			"frame": {
+				"x": 5817,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_14.png": {
+			"frame": {
+				"x": 1,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_140.png": {
+			"frame": {
+				"x": 728,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_141.png": {
+			"frame": {
+				"x": 1455,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_142.png": {
+			"frame": {
+				"x": 2182,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_143.png": {
+			"frame": {
+				"x": 2909,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_144.png": {
+			"frame": {
+				"x": 3636,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_145.png": {
+			"frame": {
+				"x": 4363,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_146.png": {
+			"frame": {
+				"x": 5090,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_147.png": {
+			"frame": {
+				"x": 5817,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_148.png": {
+			"frame": {
+				"x": 1,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_149.png": {
+			"frame": {
+				"x": 728,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_15.png": {
+			"frame": {
+				"x": 1455,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_150.png": {
+			"frame": {
+				"x": 2182,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_151.png": {
+			"frame": {
+				"x": 2909,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_152.png": {
+			"frame": {
+				"x": 3636,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_153.png": {
+			"frame": {
+				"x": 4363,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_154.png": {
+			"frame": {
+				"x": 5090,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_155.png": {
+			"frame": {
+				"x": 5817,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_156.png": {
+			"frame": {
+				"x": 1,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_157.png": {
+			"frame": {
+				"x": 728,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_158.png": {
+			"frame": {
+				"x": 1455,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_159.png": {
+			"frame": {
+				"x": 2182,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_16.png": {
+			"frame": {
+				"x": 2909,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_160.png": {
+			"frame": {
+				"x": 3636,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_17.png": {
+			"frame": {
+				"x": 4363,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_18.png": {
+			"frame": {
+				"x": 5090,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_19.png": {
+			"frame": {
+				"x": 5817,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_20.png": {
+			"frame": {
+				"x": 1,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_21.png": {
+			"frame": {
+				"x": 728,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_22.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_23.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_24.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_25.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_26.png": {
+			"frame": {
+				"x": 4363,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_27.png": {
+			"frame": {
+				"x": 5090,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_28.png": {
+			"frame": {
+				"x": 5817,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_29.png": {
+			"frame": {
+				"x": 1,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_30.png": {
+			"frame": {
+				"x": 728,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_31.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_32.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_33.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_34.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_35.png": {
+			"frame": {
+				"x": 4363,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_36.png": {
+			"frame": {
+				"x": 5090,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_37.png": {
+			"frame": {
+				"x": 5817,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_38.png": {
+			"frame": {
+				"x": 1,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_39.png": {
+			"frame": {
+				"x": 728,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_40.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_41.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_42.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_43.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_44.png": {
+			"frame": {
+				"x": 4363,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_45.png": {
+			"frame": {
+				"x": 5090,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_46.png": {
+			"frame": {
+				"x": 5817,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_47.png": {
+			"frame": {
+				"x": 1,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_48.png": {
+			"frame": {
+				"x": 728,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_49.png": {
+			"frame": {
+				"x": 1455,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_50.png": {
+			"frame": {
+				"x": 2182,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_51.png": {
+			"frame": {
+				"x": 2909,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_52.png": {
+			"frame": {
+				"x": 3636,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_53.png": {
+			"frame": {
+				"x": 4363,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_54.png": {
+			"frame": {
+				"x": 5090,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_55.png": {
+			"frame": {
+				"x": 5817,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_56.png": {
+			"frame": {
+				"x": 1,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_57.png": {
+			"frame": {
+				"x": 728,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_58.png": {
+			"frame": {
+				"x": 1455,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_59.png": {
+			"frame": {
+				"x": 2182,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_60.png": {
+			"frame": {
+				"x": 2909,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_61.png": {
+			"frame": {
+				"x": 3636,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_62.png": {
+			"frame": {
+				"x": 4363,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_63.png": {
+			"frame": {
+				"x": 5090,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_64.png": {
+			"frame": {
+				"x": 5817,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_65.png": {
+			"frame": {
+				"x": 1,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_66.png": {
+			"frame": {
+				"x": 728,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_67.png": {
+			"frame": {
+				"x": 1455,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_68.png": {
+			"frame": {
+				"x": 2182,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_69.png": {
+			"frame": {
+				"x": 2909,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_70.png": {
+			"frame": {
+				"x": 3636,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_71.png": {
+			"frame": {
+				"x": 4363,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_72.png": {
+			"frame": {
+				"x": 5090,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_73.png": {
+			"frame": {
+				"x": 5817,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_74.png": {
+			"frame": {
+				"x": 1,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_75.png": {
+			"frame": {
+				"x": 728,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_76.png": {
+			"frame": {
+				"x": 1455,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_77.png": {
+			"frame": {
+				"x": 2182,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_78.png": {
+			"frame": {
+				"x": 2909,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_79.png": {
+			"frame": {
+				"x": 3636,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_80.png": {
+			"frame": {
+				"x": 4363,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_81.png": {
+			"frame": {
+				"x": 5090,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_82.png": {
+			"frame": {
+				"x": 5817,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_83.png": {
+			"frame": {
+				"x": 6544,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_84.png": {
+			"frame": {
+				"x": 6544,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_85.png": {
+			"frame": {
+				"x": 6544,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_86.png": {
+			"frame": {
+				"x": 6544,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_87.png": {
+			"frame": {
+				"x": 6544,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_88.png": {
+			"frame": {
+				"x": 6544,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_89.png": {
+			"frame": {
+				"x": 6544,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_90.png": {
+			"frame": {
+				"x": 6544,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_91.png": {
+			"frame": {
+				"x": 6544,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_92.png": {
+			"frame": {
+				"x": 6544,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_93.png": {
+			"frame": {
+				"x": 6544,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_94.png": {
+			"frame": {
+				"x": 6544,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_95.png": {
+			"frame": {
+				"x": 6544,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_96.png": {
+			"frame": {
+				"x": 6544,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_97.png": {
+			"frame": {
+				"x": 6544,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_98.png": {
+			"frame": {
+				"x": 6544,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_attack_99.png": {
+			"frame": {
+				"x": 1,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 7270,
+			"h": 7599
+		},
+		"scale": "1"
+	}
+}

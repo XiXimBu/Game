@@ -32,6 +32,8 @@ import {
 
 const ITEM_ATLAS_KEY = 'map1_item';
 const ITEM_COLLECT_SFX_KEY = 'item_collect_sfx';
+const MAP1_PORTAL_ATLAS_KEY = 'map1_portal';
+const MAP1_PORTAL_ANIM_KEY = 'm1_portal';
 const HUD_HEALTH_ICON_KEY = 'hud_health_icon';
 const HUD_MANA_ICON_KEY = 'hud_mana_icon';
 const BIRD_SKILL_ATLAS_KEY = 'bird_skill_atlas';
@@ -48,6 +50,8 @@ export class MainScene extends Phaser.Scene {
     private groundY = 0;
     private obstacleGroup!: Phaser.Physics.Arcade.Group;
     private itemGroup!: Phaser.Physics.Arcade.Group;
+    private portalGroup!: Phaser.Physics.Arcade.Group;
+    private portal: Phaser.Physics.Arcade.Sprite | null = null;
     private bottomObstacles: Phaser.Physics.Arcade.Sprite[] = [];
     private bottomItems: Phaser.Physics.Arcade.Sprite[] = [];
     private highEnemies: Phaser.Physics.Arcade.Sprite[] = [];
@@ -57,6 +61,9 @@ export class MainScene extends Phaser.Scene {
     private playerHealth = 2;
     private playerMana = 3;
     private firePassCount = 0;
+    private fireCollectedTotal = 0;
+    private readonly portalUnlockFireCount = 15;
+    private isTransitioning = false;
     private lastEnemyDamageAtMs = -99999;
     private readonly enemyDamageCooldownMs = 1000;
     private map1ThemeMusic: Phaser.Sound.BaseSound | null = null;
@@ -120,6 +127,11 @@ export class MainScene extends Phaser.Scene {
             new URL('../assets/map1/enemy/map1_enemy.json', import.meta.url).href,
         );
         this.load.atlas(
+            MAP1_PORTAL_ATLAS_KEY,
+            new URL('../assets/map1/portal/portal.png', import.meta.url).href,
+            new URL('../assets/map1/portal/portal.json', import.meta.url).href,
+        );
+        this.load.atlas(
             ITEM_ATLAS_KEY,
             new URL('../assets/map1/item/item.png', import.meta.url).href,
             new URL('../assets/map1/item/item.json', import.meta.url).href,
@@ -172,6 +184,8 @@ export class MainScene extends Phaser.Scene {
         this.playerHealth = 2;
         this.playerMana = 3;
         this.firePassCount = 0;
+        this.fireCollectedTotal = 0;
+        this.isTransitioning = false;
         this.lastEnemyDamageAtMs = -99999;
         this.birdSkillActiveUntilMs = 0;
         this.birdSkillLastShotAtMs = -99999;
@@ -286,6 +300,20 @@ export class MainScene extends Phaser.Scene {
                 repeat: -1,
             });
         }
+        if (!this.anims.exists(MAP1_PORTAL_ANIM_KEY)) {
+            this.anims.create({
+                key: MAP1_PORTAL_ANIM_KEY,
+                frames: this.anims.generateFrameNames(MAP1_PORTAL_ATLAS_KEY, {
+                    prefix: 'portal',
+                    start: 1,
+                    end: 50,
+                    suffix: '.png',
+                    zeroPad: 2,
+                }),
+                frameRate: 18,
+                repeat: -1,
+            });
+        }
 
         if (!this.anims.exists('bird_fly')) {
             this.anims.create({
@@ -347,6 +375,7 @@ export class MainScene extends Phaser.Scene {
         );
         this.obstacleGroup = this.physics.add.group();
         this.itemGroup = this.physics.add.group();
+        this.portalGroup = this.physics.add.group();
         registerMap1EnemyAnims(this, M1_ENEMIES_ATLAS_KEY);
         this.setupHighEnemies();
         this.setupBottomEnemies();
@@ -370,6 +399,13 @@ export class MainScene extends Phaser.Scene {
             this.ninja.sprite,
             this.itemGroup,
             (_cat, obj) => this.collectBottomItem(obj as unknown),
+            undefined,
+            this,
+        );
+        this.physics.add.overlap(
+            this.ninja.sprite,
+            this.portalGroup,
+            () => this.enterPortal(),
             undefined,
             this,
         );
@@ -637,22 +673,82 @@ export class MainScene extends Phaser.Scene {
         if (this.cache.audio.exists(ITEM_COLLECT_SFX_KEY)) {
             this.sound.play(ITEM_COLLECT_SFX_KEY, { volume: 0.62 });
         }
+        this.fireCollectedTotal += 1;
         this.firePassCount += 1;
         if (this.firePassCount >= 3) {
             this.firePassCount = 0;
             this.playerMana += 1;
             this.refreshHud();
         }
+        if (
+            this.portal === null &&
+            this.fireCollectedTotal >= this.portalUnlockFireCount
+        ) {
+            this.spawnMap1Portal();
+        }
+    }
+
+    private spawnMap1Portal(): void {
+        if (this.portal || this.isGameOver) {
+            return;
+        }
+        const { width: w } = this.scale;
+        const spr = this.physics.add.sprite(
+            w + 260,
+            this.groundY,
+            MAP1_PORTAL_ATLAS_KEY,
+            'portal01.png',
+        );
+        spr.setOrigin(0.5, 1);
+        const catH = Math.max(1, this.ninja.sprite.displayHeight);
+        if (spr.height > 0) {
+            spr.setScale((catH * 1.55) / spr.height);
+        }
+        spr.setDepth(90);
+        this.portalGroup.add(spr);
+        // Sau khi add vào group, set lại body để tránh bị group default ghi đè.
+        spr.setVelocityX(-Math.abs(BOTTOM_MOVE_SPEED_X) * 0.95);
+        spr.setImmovable(true);
+        const body = spr.body as Phaser.Physics.Arcade.Body;
+        body.setAllowGravity(false);
+        body.setSize(spr.displayWidth * 0.45, spr.displayHeight * 0.78, true);
+        if (this.anims.exists(MAP1_PORTAL_ANIM_KEY)) {
+            spr.play(MAP1_PORTAL_ANIM_KEY, true);
+        }
+        this.portal = spr;
+    }
+
+    private enterPortal(): void {
+        if (this.isTransitioning || this.isGameOver || !this.portal?.active) {
+            return;
+        }
+        this.isTransitioning = true;
+        this.physics.pause();
+        this.cameras.main.fadeOut(520, 0, 0, 0);
+        this.cameras.main.once(
+            Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE,
+            () => {
+                this.scene.start('Map2Scene', { tracker: this.tracker });
+            },
+        );
     }
 
     /** Slash: vùng overlap lớn phía trước mèo; chỉ enemy có `canSlash` (không gồm đạn). */
     private applySlashHits(): void {
         const rect = this.ninja.getSlashOverlapRect();
+        const ninjaBounds = this.ninja.sprite.getBounds();
+        const maxReachX = 110; // phải áp sát mới chém trúng
         const hit = (spr: Phaser.Physics.Arcade.Sprite) => {
             if (!spr.active || !spr.getData('canSlash')) {
                 return false;
             }
-            return Phaser.Geom.Rectangle.Overlaps(rect, spr.getBounds());
+            const b = spr.getBounds();
+            // Điều kiện "áp sát": enemy phải nằm ngay trước mặt ninja theo trục X.
+            const dx = b.left - ninjaBounds.right;
+            if (dx > maxReachX) {
+                return false;
+            }
+            return Phaser.Geom.Rectangle.Overlaps(rect, b);
         };
         const bottomHits = this.bottomObstacles.filter(hit);
         const highHits = this.highEnemies.filter(hit);
@@ -1206,6 +1302,50 @@ export class MainScene extends Phaser.Scene {
                     : Number((this.debugConfig.timeScale + 0.5).toFixed(1));
             this.applyDebugPhysicsTimeScale();
         });
+        const key2 = this.input.keyboard?.addKey(
+            Phaser.Input.Keyboard.KeyCodes.TWO,
+        );
+        key2?.on('down', () => {
+            if (!this.debugConfig.enabled) return;
+            this.debugWarpToMap2();
+        });
+    }
+
+    /** Debug: +15 lửa (và mana theo quy tắc 3 lửa), mở cổng nếu cần, rồi sang Map2. */
+    private debugWarpToMap2(): void {
+        if (this.isTransitioning) {
+            return;
+        }
+        for (let i = 0; i < 15; i++) {
+            this.firePassCount += 1;
+            if (this.firePassCount >= 3) {
+                this.firePassCount = 0;
+                this.playerMana += 1;
+            }
+        }
+        this.fireCollectedTotal += 15;
+        this.refreshHud();
+        if (!this.isGameOver) {
+            if (
+                this.portal === null &&
+                this.fireCollectedTotal >= this.portalUnlockFireCount
+            ) {
+                this.spawnMap1Portal();
+            }
+            if (this.portal?.active) {
+                this.enterPortal();
+                return;
+            }
+        }
+        this.isTransitioning = true;
+        this.physics.pause();
+        this.cameras.main.fadeOut(520, 0, 0, 0);
+        this.cameras.main.once(
+            Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE,
+            () => {
+                this.scene.start('Map2Scene', { tracker: this.tracker });
+            },
+        );
     }
 
     private applyDebugPhysicsTimeScale(): void {
@@ -1219,7 +1359,7 @@ export class MainScene extends Phaser.Scene {
         }
         this.debugText.setText([
             'DEBUG MODE (H: OFF)',
-            'G: GodMode  F: FreezeSpawn  B: Hitbox  T: TimeScale',
+            'G: GodMode  F: FreezeSpawn  B: Hitbox  T: TimeScale  2: +15 lửa → Map2',
             'Webcam: 21 điểm + xương tay (MediaPipe)',
             `God Mode: ${this.debugConfig.godMode ? 'ON' : 'OFF'}`,
             `Freeze Spawning: ${this.debugConfig.freezeSpawning ? 'ON' : 'OFF'}`,

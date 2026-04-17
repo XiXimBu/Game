@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { MainScene } from './scenes/main.scene.js';
+import { Map2Scene } from './scenes/map2.scene.js';
 import { StartMenuScene } from './scenes/start.menu.js';
 import { HandTracker } from './core/handle.trackhand.js';
 
@@ -41,6 +42,7 @@ async function main(): Promise<void> {
     (game as Phaser.Game & { tracker?: HandTracker }).tracker = tracker;
     // Đăng ký scene: vào menu trước, bấm New Game mới vào MainScene.
     game.scene.add('MainScene', MainScene, false);
+    game.scene.add('Map2Scene', Map2Scene, false);
     game.scene.add('StartMenuScene', StartMenuScene, true, { tracker });
 }
 

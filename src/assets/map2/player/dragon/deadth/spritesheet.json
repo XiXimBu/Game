@@ -1,0 +1,6035 @@
+{
+	"frames": {
+		"dragon_die_00.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_01.png": {
+			"frame": {
+				"x": 728,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_02.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_03.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_04.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_05.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_06.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_07.png": {
+			"frame": {
+				"x": 5090,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_08.png": {
+			"frame": {
+				"x": 5817,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_09.png": {
+			"frame": {
+				"x": 6544,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_10.png": {
+			"frame": {
+				"x": 7271,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_100.png": {
+			"frame": {
+				"x": 7998,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_101.png": {
+			"frame": {
+				"x": 8725,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_102.png": {
+			"frame": {
+				"x": 1,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_103.png": {
+			"frame": {
+				"x": 728,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_104.png": {
+			"frame": {
+				"x": 1455,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_105.png": {
+			"frame": {
+				"x": 2182,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_106.png": {
+			"frame": {
+				"x": 2909,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_107.png": {
+			"frame": {
+				"x": 3636,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_108.png": {
+			"frame": {
+				"x": 4363,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_109.png": {
+			"frame": {
+				"x": 5090,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_11.png": {
+			"frame": {
+				"x": 5817,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_110.png": {
+			"frame": {
+				"x": 6544,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_111.png": {
+			"frame": {
+				"x": 7271,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_112.png": {
+			"frame": {
+				"x": 7998,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_113.png": {
+			"frame": {
+				"x": 8725,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_114.png": {
+			"frame": {
+				"x": 1,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_115.png": {
+			"frame": {
+				"x": 728,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_116.png": {
+			"frame": {
+				"x": 1455,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_117.png": {
+			"frame": {
+				"x": 2182,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_118.png": {
+			"frame": {
+				"x": 2909,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_119.png": {
+			"frame": {
+				"x": 3636,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_12.png": {
+			"frame": {
+				"x": 4363,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_120.png": {
+			"frame": {
+				"x": 5090,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_121.png": {
+			"frame": {
+				"x": 5817,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_122.png": {
+			"frame": {
+				"x": 6544,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_123.png": {
+			"frame": {
+				"x": 7271,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_124.png": {
+			"frame": {
+				"x": 7998,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_125.png": {
+			"frame": {
+				"x": 8725,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_126.png": {
+			"frame": {
+				"x": 1,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_127.png": {
+			"frame": {
+				"x": 728,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_128.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_129.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_13.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_130.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_131.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_132.png": {
+			"frame": {
+				"x": 5090,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_133.png": {
+			"frame": {
+				"x": 5817,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_134.png": {
+			"frame": {
+				"x": 6544,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_135.png": {
+			"frame": {
+				"x": 7271,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_136.png": {
+			"frame": {
+				"x": 7998,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_137.png": {
+			"frame": {
+				"x": 8725,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_138.png": {
+			"frame": {
+				"x": 1,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_139.png": {
+			"frame": {
+				"x": 728,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_14.png": {
+			"frame": {
+				"x": 1455,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_140.png": {
+			"frame": {
+				"x": 2182,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_141.png": {
+			"frame": {
+				"x": 2909,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_142.png": {
+			"frame": {
+				"x": 3636,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_143.png": {
+			"frame": {
+				"x": 4363,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_144.png": {
+			"frame": {
+				"x": 5090,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_145.png": {
+			"frame": {
+				"x": 5817,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_146.png": {
+			"frame": {
+				"x": 6544,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_147.png": {
+			"frame": {
+				"x": 7271,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_148.png": {
+			"frame": {
+				"x": 7998,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_149.png": {
+			"frame": {
+				"x": 8725,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_15.png": {
+			"frame": {
+				"x": 1,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_150.png": {
+			"frame": {
+				"x": 728,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_151.png": {
+			"frame": {
+				"x": 1455,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_152.png": {
+			"frame": {
+				"x": 2182,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_153.png": {
+			"frame": {
+				"x": 2909,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_154.png": {
+			"frame": {
+				"x": 3636,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_155.png": {
+			"frame": {
+				"x": 4363,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_156.png": {
+			"frame": {
+				"x": 5090,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_157.png": {
+			"frame": {
+				"x": 5817,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_158.png": {
+			"frame": {
+				"x": 6544,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_159.png": {
+			"frame": {
+				"x": 7271,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_16.png": {
+			"frame": {
+				"x": 7998,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_160.png": {
+			"frame": {
+				"x": 8725,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_161.png": {
+			"frame": {
+				"x": 1,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_162.png": {
+			"frame": {
+				"x": 728,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_163.png": {
+			"frame": {
+				"x": 1455,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_164.png": {
+			"frame": {
+				"x": 2182,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_165.png": {
+			"frame": {
+				"x": 2909,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_166.png": {
+			"frame": {
+				"x": 3636,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_167.png": {
+			"frame": {
+				"x": 4363,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_168.png": {
+			"frame": {
+				"x": 5090,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_169.png": {
+			"frame": {
+				"x": 5817,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_17.png": {
+			"frame": {
+				"x": 6544,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_170.png": {
+			"frame": {
+				"x": 7271,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_171.png": {
+			"frame": {
+				"x": 7998,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_172.png": {
+			"frame": {
+				"x": 8725,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_173.png": {
+			"frame": {
+				"x": 1,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_174.png": {
+			"frame": {
+				"x": 728,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_175.png": {
+			"frame": {
+				"x": 1455,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_176.png": {
+			"frame": {
+				"x": 2182,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_177.png": {
+			"frame": {
+				"x": 2909,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_178.png": {
+			"frame": {
+				"x": 3636,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_179.png": {
+			"frame": {
+				"x": 4363,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_18.png": {
+			"frame": {
+				"x": 5090,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_180.png": {
+			"frame": {
+				"x": 5817,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_181.png": {
+			"frame": {
+				"x": 6544,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_182.png": {
+			"frame": {
+				"x": 7271,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_183.png": {
+			"frame": {
+				"x": 7998,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_184.png": {
+			"frame": {
+				"x": 8725,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_185.png": {
+			"frame": {
+				"x": 1,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_186.png": {
+			"frame": {
+				"x": 728,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_187.png": {
+			"frame": {
+				"x": 1455,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_188.png": {
+			"frame": {
+				"x": 2182,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_189.png": {
+			"frame": {
+				"x": 2909,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_19.png": {
+			"frame": {
+				"x": 3636,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_190.png": {
+			"frame": {
+				"x": 4363,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_191.png": {
+			"frame": {
+				"x": 5090,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_192.png": {
+			"frame": {
+				"x": 5817,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_193.png": {
+			"frame": {
+				"x": 6544,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_194.png": {
+			"frame": {
+				"x": 7271,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_195.png": {
+			"frame": {
+				"x": 7998,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_196.png": {
+			"frame": {
+				"x": 8725,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_197.png": {
+			"frame": {
+				"x": 1,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_198.png": {
+			"frame": {
+				"x": 728,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_199.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_20.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_200.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_201.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_202.png": {
+			"frame": {
+				"x": 4363,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_203.png": {
+			"frame": {
+				"x": 5090,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_204.png": {
+			"frame": {
+				"x": 5817,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_205.png": {
+			"frame": {
+				"x": 6544,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_206.png": {
+			"frame": {
+				"x": 7271,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_207.png": {
+			"frame": {
+				"x": 7998,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_208.png": {
+			"frame": {
+				"x": 8725,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_209.png": {
+			"frame": {
+				"x": 1,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_21.png": {
+			"frame": {
+				"x": 728,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_210.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_211.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_212.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_213.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_214.png": {
+			"frame": {
+				"x": 4363,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_215.png": {
+			"frame": {
+				"x": 5090,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_216.png": {
+			"frame": {
+				"x": 5817,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_217.png": {
+			"frame": {
+				"x": 6544,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_218.png": {
+			"frame": {
+				"x": 7271,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_219.png": {
+			"frame": {
+				"x": 7998,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_22.png": {
+			"frame": {
+				"x": 8725,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_220.png": {
+			"frame": {
+				"x": 1,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_221.png": {
+			"frame": {
+				"x": 728,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_222.png": {
+			"frame": {
+				"x": 1455,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_223.png": {
+			"frame": {
+				"x": 2182,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_224.png": {
+			"frame": {
+				"x": 2909,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_225.png": {
+			"frame": {
+				"x": 3636,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_226.png": {
+			"frame": {
+				"x": 4363,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_227.png": {
+			"frame": {
+				"x": 5090,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_228.png": {
+			"frame": {
+				"x": 5817,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_229.png": {
+			"frame": {
+				"x": 6544,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_23.png": {
+			"frame": {
+				"x": 7271,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_230.png": {
+			"frame": {
+				"x": 7998,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_231.png": {
+			"frame": {
+				"x": 8725,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_232.png": {
+			"frame": {
+				"x": 1,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_233.png": {
+			"frame": {
+				"x": 728,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_234.png": {
+			"frame": {
+				"x": 1455,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_235.png": {
+			"frame": {
+				"x": 2182,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_236.png": {
+			"frame": {
+				"x": 2909,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_237.png": {
+			"frame": {
+				"x": 3636,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_238.png": {
+			"frame": {
+				"x": 4363,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_239.png": {
+			"frame": {
+				"x": 5090,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_24.png": {
+			"frame": {
+				"x": 5817,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_240.png": {
+			"frame": {
+				"x": 6544,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_241.png": {
+			"frame": {
+				"x": 7271,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_242.png": {
+			"frame": {
+				"x": 7998,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_243.png": {
+			"frame": {
+				"x": 8725,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_244.png": {
+			"frame": {
+				"x": 1,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_245.png": {
+			"frame": {
+				"x": 728,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_246.png": {
+			"frame": {
+				"x": 1455,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_247.png": {
+			"frame": {
+				"x": 2182,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_248.png": {
+			"frame": {
+				"x": 2909,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_249.png": {
+			"frame": {
+				"x": 3636,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_25.png": {
+			"frame": {
+				"x": 4363,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_250.png": {
+			"frame": {
+				"x": 5090,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_251.png": {
+			"frame": {
+				"x": 5817,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_252.png": {
+			"frame": {
+				"x": 6544,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_253.png": {
+			"frame": {
+				"x": 7271,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_254.png": {
+			"frame": {
+				"x": 7998,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_255.png": {
+			"frame": {
+				"x": 8725,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_256.png": {
+			"frame": {
+				"x": 1,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_257.png": {
+			"frame": {
+				"x": 728,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_258.png": {
+			"frame": {
+				"x": 1455,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_259.png": {
+			"frame": {
+				"x": 2182,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_26.png": {
+			"frame": {
+				"x": 2909,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_260.png": {
+			"frame": {
+				"x": 3636,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_261.png": {
+			"frame": {
+				"x": 4363,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_262.png": {
+			"frame": {
+				"x": 5090,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_263.png": {
+			"frame": {
+				"x": 5817,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_264.png": {
+			"frame": {
+				"x": 6544,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_265.png": {
+			"frame": {
+				"x": 7271,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_266.png": {
+			"frame": {
+				"x": 7998,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_267.png": {
+			"frame": {
+				"x": 8725,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_268.png": {
+			"frame": {
+				"x": 1,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_269.png": {
+			"frame": {
+				"x": 728,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_27.png": {
+			"frame": {
+				"x": 1455,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_270.png": {
+			"frame": {
+				"x": 2182,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_271.png": {
+			"frame": {
+				"x": 2909,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_272.png": {
+			"frame": {
+				"x": 3636,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_273.png": {
+			"frame": {
+				"x": 4363,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_274.png": {
+			"frame": {
+				"x": 5090,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_275.png": {
+			"frame": {
+				"x": 5817,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_276.png": {
+			"frame": {
+				"x": 6544,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_277.png": {
+			"frame": {
+				"x": 7271,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_278.png": {
+			"frame": {
+				"x": 7998,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_279.png": {
+			"frame": {
+				"x": 8725,
+				"y": 6706,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_28.png": {
+			"frame": {
+				"x": 1,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_280.png": {
+			"frame": {
+				"x": 728,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_281.png": {
+			"frame": {
+				"x": 1455,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_282.png": {
+			"frame": {
+				"x": 2182,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_283.png": {
+			"frame": {
+				"x": 2909,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_284.png": {
+			"frame": {
+				"x": 3636,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_285.png": {
+			"frame": {
+				"x": 4363,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_286.png": {
+			"frame": {
+				"x": 5090,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_287.png": {
+			"frame": {
+				"x": 5817,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_288.png": {
+			"frame": {
+				"x": 6544,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_289.png": {
+			"frame": {
+				"x": 7271,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_29.png": {
+			"frame": {
+				"x": 7998,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_290.png": {
+			"frame": {
+				"x": 8725,
+				"y": 7153,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_291.png": {
+			"frame": {
+				"x": 1,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_292.png": {
+			"frame": {
+				"x": 728,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_293.png": {
+			"frame": {
+				"x": 1455,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_294.png": {
+			"frame": {
+				"x": 2182,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_295.png": {
+			"frame": {
+				"x": 2909,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_296.png": {
+			"frame": {
+				"x": 3636,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_297.png": {
+			"frame": {
+				"x": 4363,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_298.png": {
+			"frame": {
+				"x": 5090,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_299.png": {
+			"frame": {
+				"x": 5817,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_30.png": {
+			"frame": {
+				"x": 6544,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_300.png": {
+			"frame": {
+				"x": 7271,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_31.png": {
+			"frame": {
+				"x": 7998,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_32.png": {
+			"frame": {
+				"x": 8725,
+				"y": 7600,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_33.png": {
+			"frame": {
+				"x": 1,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_34.png": {
+			"frame": {
+				"x": 728,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_35.png": {
+			"frame": {
+				"x": 1455,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_36.png": {
+			"frame": {
+				"x": 2182,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_37.png": {
+			"frame": {
+				"x": 2909,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_38.png": {
+			"frame": {
+				"x": 3636,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_39.png": {
+			"frame": {
+				"x": 4363,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_40.png": {
+			"frame": {
+				"x": 5090,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_41.png": {
+			"frame": {
+				"x": 5817,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_42.png": {
+			"frame": {
+				"x": 6544,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_43.png": {
+			"frame": {
+				"x": 7271,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_44.png": {
+			"frame": {
+				"x": 7998,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_45.png": {
+			"frame": {
+				"x": 8725,
+				"y": 8047,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_46.png": {
+			"frame": {
+				"x": 1,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_47.png": {
+			"frame": {
+				"x": 728,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_48.png": {
+			"frame": {
+				"x": 1455,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_49.png": {
+			"frame": {
+				"x": 2182,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_50.png": {
+			"frame": {
+				"x": 2909,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_51.png": {
+			"frame": {
+				"x": 3636,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_52.png": {
+			"frame": {
+				"x": 4363,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_53.png": {
+			"frame": {
+				"x": 5090,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_54.png": {
+			"frame": {
+				"x": 5817,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_55.png": {
+			"frame": {
+				"x": 6544,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_56.png": {
+			"frame": {
+				"x": 7271,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_57.png": {
+			"frame": {
+				"x": 7998,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_58.png": {
+			"frame": {
+				"x": 8725,
+				"y": 8494,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_59.png": {
+			"frame": {
+				"x": 1,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_60.png": {
+			"frame": {
+				"x": 728,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_61.png": {
+			"frame": {
+				"x": 1455,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_62.png": {
+			"frame": {
+				"x": 2182,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_63.png": {
+			"frame": {
+				"x": 2909,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_64.png": {
+			"frame": {
+				"x": 3636,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_65.png": {
+			"frame": {
+				"x": 4363,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_66.png": {
+			"frame": {
+				"x": 5090,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_67.png": {
+			"frame": {
+				"x": 5817,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_68.png": {
+			"frame": {
+				"x": 6544,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_69.png": {
+			"frame": {
+				"x": 7271,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_70.png": {
+			"frame": {
+				"x": 7998,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_71.png": {
+			"frame": {
+				"x": 8725,
+				"y": 8941,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_72.png": {
+			"frame": {
+				"x": 1,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_73.png": {
+			"frame": {
+				"x": 728,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_74.png": {
+			"frame": {
+				"x": 1455,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_75.png": {
+			"frame": {
+				"x": 2182,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_76.png": {
+			"frame": {
+				"x": 2909,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_77.png": {
+			"frame": {
+				"x": 3636,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_78.png": {
+			"frame": {
+				"x": 4363,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_79.png": {
+			"frame": {
+				"x": 5090,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_80.png": {
+			"frame": {
+				"x": 5817,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_81.png": {
+			"frame": {
+				"x": 6544,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_82.png": {
+			"frame": {
+				"x": 7271,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_83.png": {
+			"frame": {
+				"x": 7998,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_84.png": {
+			"frame": {
+				"x": 8725,
+				"y": 9388,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_85.png": {
+			"frame": {
+				"x": 9452,
+				"y": 1,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_86.png": {
+			"frame": {
+				"x": 9452,
+				"y": 448,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_87.png": {
+			"frame": {
+				"x": 9452,
+				"y": 895,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_88.png": {
+			"frame": {
+				"x": 9452,
+				"y": 1342,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_89.png": {
+			"frame": {
+				"x": 9452,
+				"y": 1789,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_90.png": {
+			"frame": {
+				"x": 9452,
+				"y": 2236,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_91.png": {
+			"frame": {
+				"x": 9452,
+				"y": 2683,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_92.png": {
+			"frame": {
+				"x": 9452,
+				"y": 3130,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_93.png": {
+			"frame": {
+				"x": 9452,
+				"y": 3577,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_94.png": {
+			"frame": {
+				"x": 9452,
+				"y": 4024,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_95.png": {
+			"frame": {
+				"x": 9452,
+				"y": 4471,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_96.png": {
+			"frame": {
+				"x": 9452,
+				"y": 4918,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_97.png": {
+			"frame": {
+				"x": 9452,
+				"y": 5365,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_98.png": {
+			"frame": {
+				"x": 9452,
+				"y": 5812,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		},
+		"dragon_die_99.png": {
+			"frame": {
+				"x": 9452,
+				"y": 6259,
+				"w": 725,
+				"h": 445
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 725,
+				"h": 445
+			},
+			"sourceSize": {
+				"w": 725,
+				"h": 445
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 10178,
+			"h": 9834
+		},
+		"scale": "1"
+	}
+}
