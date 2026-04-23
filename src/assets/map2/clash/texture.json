@@ -1,0 +1,255 @@
+{
+  "frames": {
+    "clash/clash_animation_09.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 1
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_08.png": {
+      "frame": {
+        "x": 341,
+        "y": 0,
+        "w": 332,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 32,
+        "w": 332,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_07.png": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 322,
+        "h": 315
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 14,
+        "w": 322,
+        "h": 315
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_06.png": {
+      "frame": {
+        "x": 673,
+        "y": 0,
+        "w": 280,
+        "h": 267
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 31,
+        "y": 42,
+        "w": 280,
+        "h": 267
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_04.png": {
+      "frame": {
+        "x": 953,
+        "y": 0,
+        "w": 244,
+        "h": 234
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 49,
+        "y": 57,
+        "w": 244,
+        "h": 234
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_03.png": {
+      "frame": {
+        "x": 1197,
+        "y": 0,
+        "w": 207,
+        "h": 210
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 67,
+        "y": 66,
+        "w": 207,
+        "h": 210
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_02.png": {
+      "frame": {
+        "x": 1404,
+        "y": 0,
+        "w": 183,
+        "h": 155
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 79,
+        "y": 97,
+        "w": 183,
+        "h": 155
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_01.png": {
+      "frame": {
+        "x": 1587,
+        "y": 0,
+        "w": 128,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 107,
+        "y": 109,
+        "w": 128,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_00.png": {
+      "frame": {
+        "x": 1715,
+        "y": 0,
+        "w": 69,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 137,
+        "y": 131,
+        "w": 69,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "clash/clash_animation_05.png": {
+      "frame": {
+        "x": 953,
+        "y": 0,
+        "w": 244,
+        "h": 234
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 49,
+        "y": 57,
+        "w": 244,
+        "h": 234
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 341
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1784,
+      "h": 316
+    },
+    "scale": 1
+  }
+}

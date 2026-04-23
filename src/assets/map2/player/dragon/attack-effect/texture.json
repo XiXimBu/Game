@@ -1,0 +1,135 @@
+{
+  "frames": {
+    "attack_effect/dragon_attack_effect_04.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 123,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 38,
+        "w": 123,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "attack_effect/dragon_attack_effect_03.png": {
+      "frame": {
+        "x": 123,
+        "y": 0,
+        "w": 106,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 37,
+        "w": 106,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "attack_effect/dragon_attack_effect_02.png": {
+      "frame": {
+        "x": 229,
+        "y": 0,
+        "w": 104,
+        "h": 106
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 0,
+        "w": 104,
+        "h": 106
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "attack_effect/dragon_attack_effect_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 69,
+        "w": 95,
+        "h": 60
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 31,
+        "y": 48,
+        "w": 95,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "attack_effect/dragon_attack_effect_00.png": {
+      "frame": {
+        "x": 95,
+        "y": 69,
+        "w": 94,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 48,
+        "w": 94,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 333,
+      "h": 129
+    },
+    "scale": 1
+  }
+}

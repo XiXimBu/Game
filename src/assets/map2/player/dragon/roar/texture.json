@@ -1,0 +1,927 @@
+{
+  "frames": {
+    "roar/dragon_roar_131.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 553,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 110,
+        "y": 173,
+        "w": 553,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_132.png": {
+      "frame": {
+        "x": 553,
+        "y": 0,
+        "w": 550,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 109,
+        "y": 172,
+        "w": 550,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_133.png": {
+      "frame": {
+        "x": 1103,
+        "y": 0,
+        "w": 546,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 110,
+        "y": 171,
+        "w": 546,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_80.png": {
+      "frame": {
+        "x": 1649,
+        "y": 0,
+        "w": 399,
+        "h": 280
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 267,
+        "y": 68,
+        "w": 399,
+        "h": 280
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_125.png": {
+      "frame": {
+        "x": 0,
+        "y": 183,
+        "w": 543,
+        "h": 213
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 121,
+        "y": 139,
+        "w": 543,
+        "h": 213
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_124.png": {
+      "frame": {
+        "x": 543,
+        "y": 183,
+        "w": 541,
+        "h": 218
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 129,
+        "y": 132,
+        "w": 541,
+        "h": 218
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_126.png": {
+      "frame": {
+        "x": 0,
+        "y": 396,
+        "w": 541,
+        "h": 207
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 117,
+        "y": 148,
+        "w": 541,
+        "h": 207
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_130.png": {
+      "frame": {
+        "x": 1084,
+        "y": 183,
+        "w": 540,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 173,
+        "w": 540,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_101.png": {
+      "frame": {
+        "x": 1624,
+        "y": 280,
+        "w": 423,
+        "h": 275
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 267,
+        "y": 74,
+        "w": 423,
+        "h": 275
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_134.png": {
+      "frame": {
+        "x": 1084,
+        "y": 366,
+        "w": 540,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 112,
+        "y": 170,
+        "w": 540,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_127.png": {
+      "frame": {
+        "x": 541,
+        "y": 401,
+        "w": 538,
+        "h": 198
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 158,
+        "w": 538,
+        "h": 198
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_128.png": {
+      "frame": {
+        "x": 1079,
+        "y": 549,
+        "w": 537,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 167,
+        "w": 537,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_129.png": {
+      "frame": {
+        "x": 541,
+        "y": 599,
+        "w": 537,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 115,
+        "y": 174,
+        "w": 537,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_103.png": {
+      "frame": {
+        "x": 1616,
+        "y": 555,
+        "w": 430,
+        "h": 270
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 267,
+        "y": 81,
+        "w": 430,
+        "h": 270
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_197.png": {
+      "frame": {
+        "x": 1078,
+        "y": 739,
+        "w": 534,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 144,
+        "y": 152,
+        "w": 534,
+        "h": 202
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_107.png": {
+      "frame": {
+        "x": 1612,
+        "y": 825,
+        "w": 436,
+        "h": 258
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 267,
+        "y": 91,
+        "w": 436,
+        "h": 258
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_106.png": {
+      "frame": {
+        "x": 1612,
+        "y": 1083,
+        "w": 435,
+        "h": 255
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 267,
+        "y": 93,
+        "w": 435,
+        "h": 255
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_135.png": {
+      "frame": {
+        "x": 0,
+        "y": 603,
+        "w": 534,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 114,
+        "y": 169,
+        "w": 534,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_196.png": {
+      "frame": {
+        "x": 534,
+        "y": 782,
+        "w": 533,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 145,
+        "y": 151,
+        "w": 533,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_198.png": {
+      "frame": {
+        "x": 0,
+        "y": 787,
+        "w": 533,
+        "h": 201
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 144,
+        "y": 152,
+        "w": 533,
+        "h": 201
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_123.png": {
+      "frame": {
+        "x": 1067,
+        "y": 941,
+        "w": 532,
+        "h": 222
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 146,
+        "y": 126,
+        "w": 532,
+        "h": 222
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_195.png": {
+      "frame": {
+        "x": 533,
+        "y": 986,
+        "w": 532,
+        "h": 205
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 146,
+        "y": 150,
+        "w": 532,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_199.png": {
+      "frame": {
+        "x": 0,
+        "y": 988,
+        "w": 532,
+        "h": 201
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 143,
+        "y": 151,
+        "w": 532,
+        "h": 201
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_194.png": {
+      "frame": {
+        "x": 0,
+        "y": 1189,
+        "w": 530,
+        "h": 206
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 147,
+        "y": 150,
+        "w": 530,
+        "h": 206
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_200.png": {
+      "frame": {
+        "x": 1065,
+        "y": 1163,
+        "w": 529,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 143,
+        "y": 150,
+        "w": 529,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_52.png": {
+      "frame": {
+        "x": 1594,
+        "y": 1338,
+        "w": 453,
+        "h": 259
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 228,
+        "y": 99,
+        "w": 453,
+        "h": 259
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_117.png": {
+      "frame": {
+        "x": 1594,
+        "y": 1597,
+        "w": 451,
+        "h": 246
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 245,
+        "y": 105,
+        "w": 451,
+        "h": 246
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_150.png": {
+      "frame": {
+        "x": 0,
+        "y": 1843,
+        "w": 523,
+        "h": 205
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 125,
+        "y": 144,
+        "w": 523,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_174.png": {
+      "frame": {
+        "x": 523,
+        "y": 1843,
+        "w": 503,
+        "h": 205
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 144,
+        "y": 142,
+        "w": 503,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_06.png": {
+      "frame": {
+        "x": 1026,
+        "y": 1843,
+        "w": 513,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 145,
+        "y": 152,
+        "w": 513,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_173.png": {
+      "frame": {
+        "x": 1539,
+        "y": 1843,
+        "w": 503,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 143,
+        "y": 143,
+        "w": 503,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_136.png": {
+      "frame": {
+        "x": 530,
+        "y": 1191,
+        "w": 529,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 116,
+        "y": 168,
+        "w": 529,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_193.png": {
+      "frame": {
+        "x": 530,
+        "y": 1375,
+        "w": 528,
+        "h": 207
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 148,
+        "y": 149,
+        "w": 528,
+        "h": 207
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_53.png": {
+      "frame": {
+        "x": 0,
+        "y": 1582,
+        "w": 446,
+        "h": 261
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 236,
+        "y": 98,
+        "w": 446,
+        "h": 261
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_143.png": {
+      "frame": {
+        "x": 0,
+        "y": 1395,
+        "w": 515,
+        "h": 187
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 123,
+        "y": 163,
+        "w": 515,
+        "h": 187
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_108.png": {
+      "frame": {
+        "x": 446,
+        "y": 1582,
+        "w": 437,
+        "h": 261
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 267,
+        "y": 88,
+        "w": 437,
+        "h": 261
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_54.png": {
+      "frame": {
+        "x": 883,
+        "y": 1582,
+        "w": 437,
+        "h": 261
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 245,
+        "y": 99,
+        "w": 437,
+        "h": 261
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "roar/dragon_roar_07.png": {
+      "frame": {
+        "x": 1058,
+        "y": 1375,
+        "w": 512,
+        "h": 207
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 146,
+        "y": 152,
+        "w": 512,
+        "h": 207
+      },
+      "sourceSize": {
+        "w": 725,
+        "h": 445
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "texture-0.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 2048
+    },
+    "scale": 1
+  }
+}

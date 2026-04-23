@@ -181,10 +181,9 @@ export class MainScene extends Phaser.Scene {
         // Sau game over, Arcade world có thể vẫn đang pause — bắt buộc resume để ván mới chạy bình thường.
         this.physics.resume();
         this.isGameOver = false;
-        this.playerHealth = 2;
+        this.playerHealth = 3;
         this.playerMana = 3;
-        this.firePassCount = 0;
-        this.fireCollectedTotal = 0;
+        this.resetFirePortalProgress();
         this.isTransitioning = false;
         this.lastEnemyDamageAtMs = -99999;
         this.birdSkillActiveUntilMs = 0;
@@ -300,19 +299,25 @@ export class MainScene extends Phaser.Scene {
                 repeat: -1,
             });
         }
-        if (!this.anims.exists(MAP1_PORTAL_ANIM_KEY)) {
-            this.anims.create({
-                key: MAP1_PORTAL_ANIM_KEY,
-                frames: this.anims.generateFrameNames(MAP1_PORTAL_ATLAS_KEY, {
-                    prefix: 'portal',
-                    start: 1,
-                    end: 50,
-                    suffix: '.png',
-                    zeroPad: 2,
-                }),
-                frameRate: 18,
-                repeat: -1,
+        if (
+            !this.anims.exists(MAP1_PORTAL_ANIM_KEY) &&
+            this.textures.exists(MAP1_PORTAL_ATLAS_KEY)
+        ) {
+            const portalFrames = this.anims.generateFrameNames(MAP1_PORTAL_ATLAS_KEY, {
+                prefix: 'portal',
+                start: 1,
+                end: 50,
+                suffix: '.png',
+                zeroPad: 2,
             });
+            if (portalFrames.length > 0) {
+                this.anims.create({
+                    key: MAP1_PORTAL_ANIM_KEY,
+                    frames: portalFrames,
+                    frameRate: 18,
+                    repeat: -1,
+                });
+            }
         }
 
         if (!this.anims.exists('bird_fly')) {
@@ -692,6 +697,12 @@ export class MainScene extends Phaser.Scene {
         if (this.portal || this.isGameOver) {
             return;
         }
+        if (
+            !this.textures.exists(MAP1_PORTAL_ATLAS_KEY) ||
+            !this.textures.get(MAP1_PORTAL_ATLAS_KEY).has('portal01.png')
+        ) {
+            return;
+        }
         const { width: w } = this.scale;
         const spr = this.physics.add.sprite(
             w + 260,
@@ -728,6 +739,10 @@ export class MainScene extends Phaser.Scene {
         this.cameras.main.once(
             Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE,
             () => {
+                if (this.isGameOver || !this.scene.isActive()) {
+                    return;
+                }
+                this.resetFirePortalProgress();
                 this.scene.start('Map2Scene', { tracker: this.tracker });
             },
         );
@@ -882,6 +897,7 @@ export class MainScene extends Phaser.Scene {
             }
             return true;
         });
+        this.handlePortalSkipReset();
         this.updateBirdSkillProjectiles();
 
         this.updateDebugOverlay();
@@ -1010,6 +1026,23 @@ export class MainScene extends Phaser.Scene {
             }
             return true;
         });
+    }
+
+    /**
+     * Nếu cổng đã spawn nhưng người chơi không đi vào (cổng trôi qua màn),
+     * chỉ phạt -5 lửa tiến độ (ví dụ 15 -> 10), không reset về 0.
+     */
+    private handlePortalSkipReset(): void {
+        if (!this.portal?.active || this.isTransitioning || this.isGameOver) {
+            return;
+        }
+        if (this.portal.x >= DESTROY_OFFSCREEN_X - 10) {
+            return;
+        }
+        this.portal.destroy();
+        this.portal = null;
+        const firePenalty = 5;
+        this.fireCollectedTotal = Math.max(0, this.fireCollectedTotal - firePenalty);
     }
 
     /**
@@ -1168,7 +1201,7 @@ export class MainScene extends Phaser.Scene {
             .setOrigin(0.5)
             .setDepth(999);
         this.time.delayedCall(2000, () => {
-            this.scene.start('StartMenuScene', { tracker: this.tracker });
+            this.goToStartMenu();
         });
     }
 
@@ -1235,9 +1268,13 @@ export class MainScene extends Phaser.Scene {
             if (this.isGameOver) {
                 return;
             }
-            this.stopMap1ThemeMusic();
-            this.scene.start('StartMenuScene', { tracker: this.tracker });
+            this.goToStartMenu();
         });
+    }
+
+    private goToStartMenu(): void {
+        this.stopMap1ThemeMusic();
+        this.scene.start('StartMenuScene', { tracker: this.tracker });
     }
 
     private tuneNinjaHitbox(): void {
@@ -1343,9 +1380,19 @@ export class MainScene extends Phaser.Scene {
         this.cameras.main.once(
             Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE,
             () => {
+                this.resetFirePortalProgress();
                 this.scene.start('Map2Scene', { tracker: this.tracker });
             },
         );
+    }
+
+    private resetFirePortalProgress(): void {
+        this.firePassCount = 0;
+        this.fireCollectedTotal = 0;
+        if (this.portal?.active) {
+            this.portal.destroy();
+        }
+        this.portal = null;
     }
 
     private applyDebugPhysicsTimeScale(): void {

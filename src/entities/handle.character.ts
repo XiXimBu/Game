@@ -19,6 +19,8 @@ export class NinjaCat {
     private slashing = false;
     private slashCooldownUntil = 0;
     private slashLockUntil = 0;
+    /** Map2: ninja đứng bên phải, chém về phía trái (rồng). */
+    private facingLeft = false;
 
     constructor(
         scene: Phaser.Scene,
@@ -59,6 +61,10 @@ export class NinjaCat {
         });
     }
 
+    setFacingLeft(left: boolean): void {
+        this.facingLeft = left;
+    }
+
     isSlashing(): boolean {
         return this.slashing;
     }
@@ -73,26 +79,53 @@ export class NinjaCat {
      */
     getSlashOverlapRect(): Phaser.Geom.Rectangle {
         const b = this.sprite.getBounds();
-        // Giảm tầm chém để chỉ trúng enemy gần mèo, tránh "quét sạch" lane.
-        const extendRight = 110;
-        const extendLeft = 18;
         const extendY = 24;
+        const extendPrimary = 110;
+        const extendBack = 18;
+        if (this.facingLeft) {
+            return new Phaser.Geom.Rectangle(
+                b.x - extendPrimary,
+                b.y - extendY,
+                b.width + extendPrimary + extendBack,
+                b.height + extendY * 2,
+            );
+        }
         return new Phaser.Geom.Rectangle(
-            b.x - extendLeft,
+            b.x - extendBack,
             b.y - extendY,
-            b.width + extendLeft + extendRight,
+            b.width + extendBack + extendPrimary,
             b.height + extendY * 2,
         );
     }
 
-    /** Tay trái giơ **số 1** (cạnh lên) → `ninja_slash`. */
-    updateSlashGesture(handData: HandData): void {
-        if (!handData.hasLeftHand) {
+    /**
+     * Map1: tay trái số 1. Map2 đối kháng: `useMap2RightHand` — tay phải số 1.
+     * `slashAllowed` false vẫn cập nhật edge để không trượt nhịp (mana).
+     */
+    updateSlashGesture(
+        handData: HandData,
+        useMap2RightHand = false,
+        slashAllowed = true,
+    ): void {
+        const oneActive = useMap2RightHand
+            ? handData.hasPhysicalRightForMap2 && handData.map2RightOne
+            : handData.hasLeftHand && handData.isOneGesture;
+
+        if (!useMap2RightHand && !handData.hasLeftHand) {
             this.prevOneGesture = false;
             return;
         }
-        const edge = handData.isOneGesture && !this.prevOneGesture;
-        this.prevOneGesture = handData.isOneGesture;
+        if (useMap2RightHand && !handData.hasPhysicalRightForMap2) {
+            this.prevOneGesture = false;
+            return;
+        }
+
+        const edge = oneActive && !this.prevOneGesture;
+        this.prevOneGesture = oneActive;
+
+        if (!slashAllowed) {
+            return;
+        }
 
         if (
             !edge ||
@@ -121,11 +154,18 @@ export class NinjaCat {
         this.sprite.play('ninja_slash', true);
     }
 
-    /** Chỉ tay trái nắm → nhảy. @returns trạng thái nắm tay trái frame này (prevGrab ở scene) */
-    updateFromHand(handData: HandData, prevGrab: boolean): boolean {
+    /** Map1: tay trái nắm. Map2: `useMap2RightHand` — tay phải nắm. */
+    updateFromHand(
+        handData: HandData,
+        prevGrab: boolean,
+        useMap2RightHand = false,
+    ): boolean {
         const body = this.sprite.body as Phaser.Physics.Arcade.Body;
 
-        if (!handData.hasLeftHand) {
+        const has = useMap2RightHand
+            ? handData.hasPhysicalRightForMap2
+            : handData.hasLeftHand;
+        if (!has) {
             return false;
         }
 
@@ -133,7 +173,9 @@ export class NinjaCat {
             return prevGrab;
         }
 
-        const nextGrab = handData.isGrab;
+        const nextGrab = useMap2RightHand
+            ? handData.map2RightGrab
+            : handData.isGrab;
         const justGrabbed = handData.isGrab && !prevGrab;
 
         if (justGrabbed && body.blocked.down) {

@@ -18,6 +18,44 @@ export type HandData = {
      * Tay trái giơ **số 1** (trỏ duỗi, ba ngón cụp, cái gập) → slash NinjaCat.
      */
     isOneGesture: boolean;
+
+    /**
+     * Điều khiển rồng (Map2): cùng tay “chim” — có ngón trỏ trong frame.
+     * `normX`/`normY` là vị trí ngón trỏ; `dragonHandSpeed` là |d(normX)/dt| (đơn vị norm/giây).
+     */
+    hasDragonControlHand: boolean;
+    dragonHandSpeed: number;
+    /** Một frame: lia nhanh từ phải → trái (tip.x giảm mạnh), để lật hướng rồng. */
+    dragonSwipeRightToLeft: boolean;
+
+    /**
+     * Map2 đối kháng 1v1 — nhãn **MediaPipe** (không sort theo màn hình như Map1).
+     * Tay trái: rồng; tay phải: ninja mèo.
+     */
+    hasPhysicalLeftForMap2: boolean;
+    hasPhysicalRightForMap2: boolean;
+    /** Tay trái: mở bàn tay → rồng tiến. */
+    map2DragonWalkForward: boolean;
+    /** Tay trái: số 1 → rồng lùi. */
+    map2DragonWalkBack: boolean;
+    /** Tay trái: nắm tay (giữ) — dùng cạnh lên để bắn chưởng. */
+    map2DragonFist: boolean;
+    /** Tay phải: nắm → nhảy ninja Map2. */
+    map2RightGrab: boolean;
+    /** Tay phải: số 1 → chém Map2. */
+    map2RightOne: boolean;
+    /** Tay phải: số 1 → mèo lùi lại trong Map2 đối kháng. */
+    map2RightBack: boolean;
+    /** Tay phải: mở bàn tay → mèo tiến trong Map2 đối kháng. */
+    map2RightWalkForward: boolean;
+    /** Tay phải: số 2 → mèo nhảy trong Map2 đối kháng. */
+    map2RightJump: boolean;
+
+    /**
+     * Tay trái (nhãn MediaPipe Left): cử chỉ **số 1** — debug / test nhánh bắn.
+     * (Cùng điều kiện với `map2DragonWalkBack`.)
+     */
+    isOneGestureLeft: boolean;
 };
 
 function radToDeg(rad: number): number {
@@ -33,43 +71,68 @@ function dist2(
     return Math.hypot(dx, dy);
 }
 
-/** Kiểm tra một ngón có đang gập chặt hay không (đo theo gốc cổ tay). */
-function isFingerFolded(
+type FingerStates = [boolean, boolean, boolean, boolean, boolean];
+
+/**
+ * Trạng thái 5 ngón: [thumb, index, middle, ring, pinky]
+ * true = duỗi, false = gập.
+ */
+function getFingerStates(
     lm: { x: number; y: number }[],
-    wrist: number,
-    mcp: number,
-    tip: number,
-): boolean {
-    return dist2(lm[wrist], lm[tip]) < dist2(lm[wrist], lm[mcp]);
+    handTag: 'Left' | 'Right',
+): FingerStates {
+    void handTag;
+    // Thumb mở theo trục ngang tốt hơn các ngón còn lại.
+    const thumbUp = dist2(lm[4], lm[17]) > dist2(lm[3], lm[17]) * 1.2;
+    const indexUp = dist2(lm[0], lm[8]) > dist2(lm[0], lm[6]);
+    const middleUp = dist2(lm[0], lm[12]) > dist2(lm[0], lm[10]);
+    const ringUp = dist2(lm[0], lm[16]) > dist2(lm[0], lm[14]);
+    const pinkyUp = dist2(lm[0], lm[20]) > dist2(lm[0], lm[18]);
+    return [thumbUp, indexUp, middleUp, ringUp, pinkyUp];
 }
 
-/** Kiểm tra một ngón có đang duỗi thẳng hay không (ngưỡng 1.4 để chống nhiễu chuyển tiếp). */
-function isFingerExtended(
-    lm: { x: number; y: number }[],
-    wrist: number,
-    mcp: number,
-    tip: number,
-): boolean {
-    return dist2(lm[wrist], lm[tip]) > dist2(lm[wrist], lm[mcp]) * 1.4;
+/** Nắm tay: 4 ngón chính cùng gập. */
+function isGrabGesture(states: FingerStates): boolean {
+    const [, indexUp, middleUp, ringUp, pinkyUp] = states;
+    return !indexUp && !middleUp && !ringUp && !pinkyUp;
 }
 
-/** NẮM TAY → NHẢY: 4 ngón chính (trỏ/giữa/áp út/út) đều gập. */
+/** Số 1: chỉ trỏ duỗi, giữa/áp út/út gập. */
+function isOneGesture(states: FingerStates): boolean {
+    const [, indexUp, middleUp, ringUp, pinkyUp] = states;
+    return indexUp && !middleUp && !ringUp && !pinkyUp;
+}
+
+/** Số 2: trỏ + giữa duỗi, áp út + út gập. */
+function isTwoGesture(states: FingerStates): boolean {
+    const [, indexUp, middleUp, ringUp, pinkyUp] = states;
+    return indexUp && middleUp && !ringUp && !pinkyUp;
+}
+
+/** Bàn tay mở: 4 ngón chính cùng duỗi. */
+function isOpenPalmGesture(states: FingerStates): boolean {
+    const [, indexUp, middleUp, ringUp, pinkyUp] = states;
+    return indexUp && middleUp && ringUp && pinkyUp;
+}
+
+/** Wrapper giữ tương thích với logic hiện có của scene. */
 function leftHandGrabForJump(lm: { x: number; y: number }[]): boolean {
-    return (
-        isFingerFolded(lm, 0, 5, 8) &&
-        isFingerFolded(lm, 0, 9, 12) &&
-        isFingerFolded(lm, 0, 13, 16) &&
-        isFingerFolded(lm, 0, 17, 20)
-    );
+    return isGrabGesture(getFingerStates(lm, 'Left'));
 }
 
-/** GIƠ SỐ 1 → CHÉM: trỏ duỗi, 3 ngón còn lại gập. */
+/** Wrapper giữ tương thích với logic hiện có của scene. */
 function oneGestureFromLandmarks(lm: { x: number; y: number }[]): boolean {
+    return isOneGesture(getFingerStates(lm, 'Left'));
+}
+
+/** Mở tay để tiến: loại trừ số 1 / số 2 / nắm. */
+function openPalmFromLandmarks(lm: { x: number; y: number }[]): boolean {
+    const states = getFingerStates(lm, 'Left');
     return (
-        isFingerExtended(lm, 0, 5, 8) &&
-        isFingerFolded(lm, 0, 9, 12) &&
-        isFingerFolded(lm, 0, 13, 16) &&
-        isFingerFolded(lm, 0, 17, 20)
+        !isGrabGesture(states) &&
+        !isOneGesture(states) &&
+        !isTwoGesture(states) &&
+        isOpenPalmGesture(states)
     );
 }
 
@@ -149,12 +212,32 @@ export class HandTracker {
         hasLeftHand: false,
         isGrab: false,
         isOneGesture: false,
+        hasDragonControlHand: false,
+        dragonHandSpeed: 0,
+        dragonSwipeRightToLeft: false,
+        hasPhysicalLeftForMap2: false,
+        hasPhysicalRightForMap2: false,
+        map2DragonWalkForward: false,
+        map2DragonWalkBack: false,
+        map2DragonFist: false,
+        map2RightGrab: false,
+        map2RightOne: false,
+        map2RightBack: false,
+        map2RightWalkForward: false,
+        map2RightJump: false,
+        isOneGestureLeft: false,
     };
 
     private readonly hands: Hands;
     private camera: Camera | null = null;
     private readonly overlayCanvas: HTMLCanvasElement | null;
     private handSkeletonDebug = false;
+
+    /** Theo dõi tay điều khiển rồng (cùng cử chỉ chim). */
+    private dragonPrevTipX: number | null = null;
+    private dragonPrevNormX: number | null = null;
+    private dragonPrevTimeMs = 0;
+    private dragonLastSwipeAtMs = 0;
 
     constructor(private readonly video: HTMLVideoElement) {
         this.hands = new Hands({
@@ -164,6 +247,13 @@ export class HandTracker {
         const el = document.getElementById('webcam-overlay');
         this.overlayCanvas =
             el instanceof HTMLCanvasElement ? el : null;
+    }
+
+    private resetDragonHandState(): void {
+        this.handData.hasDragonControlHand = false;
+        this.handData.dragonHandSpeed = 0;
+        this.dragonPrevTipX = null;
+        this.dragonPrevNormX = null;
     }
 
     setHandSkeletonDebug(on: boolean): void {
@@ -320,8 +410,21 @@ export class HandTracker {
             this.handData.isRightGrab = false;
             this.handData.isGrab = false;
             this.handData.isOneGesture = false;
+            this.handData.dragonSwipeRightToLeft = false;
+            this.handData.hasPhysicalLeftForMap2 = false;
+            this.handData.hasPhysicalRightForMap2 = false;
+            this.handData.map2DragonWalkForward = false;
+            this.handData.map2DragonWalkBack = false;
+            this.handData.map2DragonFist = false;
+            this.handData.map2RightGrab = false;
+            this.handData.map2RightOne = false;
+            this.handData.map2RightBack = false;
+            this.handData.map2RightWalkForward = false;
+            this.handData.map2RightJump = false;
+            this.handData.isOneGestureLeft = false;
 
             if (!list?.length) {
+                this.resetDragonHandState();
                 this.drawHandOverlay(results);
                 return;
             }
@@ -334,6 +437,36 @@ export class HandTracker {
                     continue;
                 }
                 tagged.push({ lm, tag: raw });
+            }
+
+            // Map2: tách luồng tay theo nhãn MediaPipe để tránh lẫn trái/phải.
+            const map2LeftHand = tagged.find((h) => h.tag === 'Left') ?? null;
+            const map2RightHand = tagged.find((h) => h.tag === 'Right') ?? null;
+
+            for (const th of tagged) {
+                const lm = th.lm;
+                if (th === map2LeftHand) {
+                    this.handData.hasPhysicalLeftForMap2 = true;
+                    this.handData.map2DragonFist = leftHandGrabForJump(lm);
+                    this.handData.map2DragonWalkBack = oneGestureFromLandmarks(lm);
+                    this.handData.isOneGestureLeft = this.handData.map2DragonWalkBack;
+                    this.handData.map2DragonWalkForward =
+                        !this.handData.map2DragonFist &&
+                        !this.handData.map2DragonWalkBack &&
+                        openPalmFromLandmarks(lm);
+                } else if (th === map2RightHand) {
+                    this.handData.hasPhysicalRightForMap2 = true;
+                    this.handData.map2RightGrab = leftHandGrabForJump(lm);
+                    this.handData.map2RightOne = oneGestureFromLandmarks(lm);
+                    this.handData.map2RightBack = this.handData.map2RightOne;
+                    this.handData.map2RightWalkForward =
+                        !this.handData.map2RightGrab &&
+                        !this.handData.map2RightBack &&
+                        openPalmFromLandmarks(lm);
+                    this.handData.map2RightJump = isTwoGesture(
+                        getFingerStates(lm, 'Right'),
+                    );
+                }
             }
 
             const { ninja, bird } = pickNinjaAndBirdHands(tagged);
@@ -364,6 +497,58 @@ export class HandTracker {
                 if (oneGestureFromLandmarks(lm)) {
                     this.handData.isOneGesture = true;
                 }
+            }
+
+            /** Rồng Map2: ưu tiên tay “chim”, không có chim thì dùng tay còn lại (ngón trỏ). */
+            const dragonLm = bird?.lm ?? ninja?.lm ?? null;
+            if (dragonLm) {
+                const tipIndex = dragonLm[8];
+                const tipX = tipIndex.x;
+                const normX = 1 - tipIndex.x;
+                if (!bird) {
+                    this.handData.normX = normX;
+                    this.handData.normY = tipIndex.y;
+                }
+                const now = performance.now();
+                if (
+                    this.dragonPrevNormX !== null &&
+                    this.dragonPrevTimeMs > 0
+                ) {
+                    const dtSec = Math.max(
+                        (now - this.dragonPrevTimeMs) / 1000,
+                        1 / 120,
+                    );
+                    this.handData.dragonHandSpeed =
+                        Math.abs(normX - this.dragonPrevNormX) / dtSec;
+                } else {
+                    this.handData.dragonHandSpeed = 0;
+                }
+                if (
+                    this.dragonPrevTipX !== null &&
+                    this.dragonPrevTimeMs > 0
+                ) {
+                    const dtSec = Math.max(
+                        (now - this.dragonPrevTimeMs) / 1000,
+                        1 / 120,
+                    );
+                    const vxTip = (tipX - this.dragonPrevTipX) / dtSec;
+                    const SWIPE_VX = 2.1;
+                    const SWIPE_COOLDOWN_MS = 480;
+                    if (
+                        now - this.dragonLastSwipeAtMs >= SWIPE_COOLDOWN_MS &&
+                        this.dragonPrevTipX > 0.48 &&
+                        vxTip < -SWIPE_VX
+                    ) {
+                        this.handData.dragonSwipeRightToLeft = true;
+                        this.dragonLastSwipeAtMs = now;
+                    }
+                }
+                this.handData.hasDragonControlHand = true;
+                this.dragonPrevTipX = tipX;
+                this.dragonPrevNormX = normX;
+                this.dragonPrevTimeMs = now;
+            } else {
+                this.resetDragonHandState();
             }
 
             this.drawHandOverlay(results);
